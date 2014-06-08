@@ -1,0 +1,147 @@
+* {
+	font-size: 14px;
+	font-family: 'PT Sans',sans-serif
+}
+
+html {
+	background: #000
+}
+
+:focus {
+	outline: 0;
+}
+
+body {
+	width: 600px;
+	height: 330px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -165px 0 0 -310px;
+	color: #fff;
+}
+
+header,footer {
+	display: block;
+	clear: both
+}
+
+header {
+	width: 100%;
+	height: 2em;
+	background: #222;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+
+h1 {
+	float: left;
+	margin: 0 5px;
+	font-size: 1.33em
+}
+
+h2 {
+	float: right;
+	margin: 0 5px;
+	font-weight: 400;
+	font-size: 1.33em;
+	color: #7F7F7F
+}
+
+canvas {
+	width: 110px;
+	height: 110px;
+	margin: 5px;
+	float: left;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	background: #7F7F7F
+}
+
+canvas:hover {
+	width: 104px;
+	height: 104px;
+	border: 3px solid #ccc;
+}
+
+canvas.current-color {
+	width: 104px;
+	height: 104px;
+	border: 3px solid #fff
+}
+
+#hsl,#rgb,#hex {
+	width: 180px;
+	height: 160px;
+	float: left;
+	text-align: left;
+	padding: 5px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 5px;
+	background: #333
+}
+
+label {
+	display: block;
+	clear: both;
+	font-weight: 700
+}
+
+input {
+	text-align: left;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display: block;
+	width: 175px;
+	height: 24px;
+	font-family: Menlo, "DejaVu Sans Mono", Consolas, Monaco, "Lucida Console", monospace;
+	background: #666;
+	color: #fff;
+	border:0;
+}
+
+input:hover {
+	background: #777;
+}
+
+input:focus {
+	background: #888;
+}
+
+/* slider root element */
+.slider {
+	background: #666;
+	height: 3px;
+	position: relative;
+	cursor: pointer;
+	border: 1px solid #333;
+	width: 175px;
+	float: left;
+	clear: right;
+	margin: 8px 0 12px;
+}
+
+
+/* drag handle */
+.handle {
+	background: #fff;
+	height: 12px;
+	width: 12px;
+	top: -6px;
+	position: absolute;
+	display: block;
+	margin-top: 1px;
+	cursor: move;
+	-moz-box-shadow: 0 0 1px #000;
+	-webkit-box-shadow: 0 0 1px #000;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px
+}
+
+/* the input field */
+.range {
+	display: none
+}

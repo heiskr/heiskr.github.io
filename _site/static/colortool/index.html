@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Color Tool</title>
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:regular,bold&subset=latin' > 
+		<link rel="stylesheet" href="style.css" /> 	
+	</head>
+	
+	<body>
+		
+		<header style="display:none;">
+			<h1>Color Tool</h1>
+			<h2>Kevin Heis</h2>
+		</header>
+		
+		<canvas id="1"></canvas>
+		<canvas id="2"></canvas>
+		<canvas id="3"></canvas>
+		<canvas id="4"></canvas>
+		<canvas id="5"></canvas>
+		
+		<footer style="display:none;">
+			<section id="hsl">
+				<label>Hue <input type="range" name="h" min="0" max="359" /></label>
+				<label>Saturation <input type="range" name="s" min="0" max="100" /></label>
+				<label>Light <input type="range" name="l" min="0" max="100" /></label>
+				<label><input type="text" name="hsl" value= "0,0,50" /></label>
+			</section> <!-- END #hsl -->
+			
+			<section id="rgb">
+				<label>Red <input type="range" name="r" min="0" max="255" /></label>
+				<label>Green <input type="range" name="g" min="0" max="255" /></label>
+				<label>Blue <input type="range" name="b" min="0" max="255" /></label>
+				<label><input type="text" name="rgb" value= "127,127,127" /></label>
+			</section> <!-- END #rgb -->
+			
+			<section id="hex">
+				<label>Hex <input type="text" name="hex" value="#7F7F7F" /></label>
+			</section> <!-- END #hex -->
+		</footer>
+		
+		<div id="javascript">
+			<script src="https://www.google.com/jsapi"></script>
+			<script>
+				google.load("jquery", "1.4.4");
+			</script> 
+			<script src="http://cdn.jquerytools.org/1.2.5/form/jquery.tools.min.js"></script>
+			<script src="color.js"></script>
+			<script src="script.js"></script>
+			<script>
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-12761487-1']);
+			  _gaq.push(['_trackPageview']);
+			
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+			</script>
+		</div><!-- END #javascript -->
+	
+	</body>
+	
+</html>

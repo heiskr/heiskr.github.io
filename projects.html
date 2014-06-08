@@ -1,0 +1,29 @@
+---
+layout: default
+title: Previous Projects
+brief: The projects listed here are from my student days (~2004-2010).
+---
+
+<ul>
+    {% for project in site.data.projects %}
+        {% if project.featured %}
+            <li>
+                <a href="/projects#{{project.slug}}">{{project.title}}</a>
+                {{project.brief}}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<hr />
+
+<ul>
+    {% for project in site.data.projects %}
+        {% unless project.featured %}
+            <li>
+                <a href="/projects/{{project.slug}}">{{project.title}}</a>
+                {{project.brief}}
+            </li>
+        {% endunless %}
+    {% endfor %}
+</ul>

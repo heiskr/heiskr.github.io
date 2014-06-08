@@ -1,0 +1,81 @@
+---
+---
+
+$width: 40em
+$background-color: #f8f7f7
+$foreground-color: #232222
+$middle-color: mix($background-color, $foreground-color)
+$link-color: #0074D9
+$unit: 14px
+
+body, input, select, textarea
+    background: $background-color
+    color: $foreground-color
+    font-family: "noto sans", sans-serif
+    line-height: $unit * 1.5
+    font-size: $unit
+
+h1, h2, h3, h4, h5, h6
+    font-weight: normal
+    margin: $unit 0
+
+    &.subheader
+        margin: -$unit 0 $unit
+        color: $middle-color
+
+h1
+    font-size: $unit * 2
+    line-height: $unit * 3
+
+h2
+    font-size: $unit * 1.5
+    line-height: $unit * 2
+
+h3
+    font-size: $unit * 1.25
+    line-height: $unit * 1.5
+
+h4, h5, h6
+    font-size: $unit * 1
+    line-height: $unit * 1.5
+
+menu, ol, ul
+    padding: 0 0 0 ($unit * 2)
+
+ul
+    list-style: square
+
+a
+    color: $link-color
+    border-bottom: 1px solid $link-color
+    text-decoration: none
+    &:hover
+        border-bottom: 1px solid lighten($link-color, 10%)
+
+hr
+    border: 0
+    border-top: 1px solid $middle-color
+    height: 0
+    margin: $unit 0
+
+header
+    clear: both
+    width: $width
+    margin: $unit auto
+    border-bottom: 1px solid $middle-color
+
+    a
+        border-bottom: 0
+
+small
+    font-size: 12px
+
+main
+    width: $width
+    margin: $unit auto
+
+time
+    font-family: menlo, "dejavu sans mono", "bitstream vera sans mono", consolas, inconsolata, "lucida console", monaco, monospace
+    text-align: right
+    display: block
+    margin: $unit 0

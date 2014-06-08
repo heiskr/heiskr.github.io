@@ -1,0 +1,45 @@
+html {
+	background:#000;
+}
+
+body {
+	background:#fff;
+	width:500px;
+	margin:0 auto;
+	padding:20px;
+	text-align:left;
+}
+
+label,input {
+	display:block;
+}
+
+label {
+	padding:10px 0;
+}
+
+input {
+	font-size:14px;
+}
+
+textarea {
+	width:480px;
+	height:300px;
+	border:1px solid #fff;
+	color:#fff;
+	background:#555;
+	font-family:monospace;
+	font-size:14px;
+	padding:10px;
+	overflow:auto;
+	text-align:left;
+}
+
+a {
+	color:#000;
+	text-decoration: none;
+}
+
+* {
+	font-family:'Open Sans',sans-serif;
+}
