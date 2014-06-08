@@ -50,21 +50,23 @@ hr {
 
 header {
   clear: both;
-  width: 40em;
+  width: 560px;
   margin: 14px auto;
   border-bottom: 1px solid #909090; }
   header a {
+    font-size: 21px;
+    line-height: 28px;
     border-bottom: 0; }
 
 small {
   font-size: 12px; }
 
 main {
-  width: 40em;
+  width: 560px;
   margin: 14px auto; }
 
 time {
-  font-family: menlo, "dejavu sans mono", "bitstream vera sans mono", consolas, inconsolata, "lucida console", monaco, monospace;
   text-align: right;
   display: block;
-  margin: 14px 0; }
+  margin: 14px 0;
+  color: #909090; }
