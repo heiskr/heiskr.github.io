@@ -8,7 +8,7 @@ brief: The projects listed here are from my student days (~2004-2010).
     {% for project in site.data.projects %}
         {% if project.featured %}
             <li>
-                <a href="/projects#{{project.slug}}">{{project.title}}</a>
+                <a href="/projects/{{project.slug}}">{{project.title}}</a>
                 {{project.brief}}
             </li>
         {% endif %}
