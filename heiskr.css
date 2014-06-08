@@ -1,16 +1,16 @@
 body, input, select, textarea {
-  background: #f8f7f7;
-  color: #232222;
-  font-family: "noto sans", sans-serif;
+  background: white;
+  color: #222222;
   line-height: 21px;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   margin: 14px 0; }
   h1.subheader, h2.subheader, h3.subheader, h4.subheader, h5.subheader, h6.subheader {
     margin: -14px 0 14px;
-    color: #8d8c8c; }
+    color: #909090; }
 
 h1 {
   font-size: 28px;
@@ -44,7 +44,7 @@ a {
 
 hr {
   border: 0;
-  border-top: 1px solid #8d8c8c;
+  border-top: 1px solid #909090;
   height: 0;
   margin: 14px 0; }
 
@@ -52,7 +52,7 @@ header {
   clear: both;
   width: 40em;
   margin: 14px auto;
-  border-bottom: 1px solid #8d8c8c; }
+  border-bottom: 1px solid #909090; }
   header a {
     border-bottom: 0; }
 
