@@ -39,7 +39,8 @@ a {
   border-bottom: 1px solid #0074d9;
   text-decoration: none; }
   a:hover {
-    border-bottom: 1px solid #0d8eff; }
+    color: #0d8eff;
+    border-bottom-color: #0d8eff; }
 
 hr {
   border: 0;
