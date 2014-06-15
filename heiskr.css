@@ -66,7 +66,8 @@ main {
   margin: 16px auto; }
 
 time {
-  text-align: right;
-  display: block;
-  margin: 16px 0;
   color: #909090; }
+  time.project-time {
+    text-align: right;
+    display: block;
+    margin: 16px 0; }

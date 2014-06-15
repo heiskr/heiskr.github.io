@@ -41,7 +41,7 @@ for project in projects:
     contents += '---\n\n'
 
     if 'date' in data:
-        contents += '<time>%s</time>' % data['date']
+        contents += '<time class="project-time">%s</time>' % data['date']
     if 'media' in data:
         contents += '%s\n' % data['media'].strip()
     if 'image' in data:

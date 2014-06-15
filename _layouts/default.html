@@ -8,6 +8,7 @@
         <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}Kevin Heis</title>
         <link href="/normalize.css" rel="stylesheet" />
         <link href="/heiskr.css" rel="stylesheet" />
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="icon" href="/favicon.ico">
         <script>
             var _gaq = [['_setAccount', 'UA-36085354-1'], ['_trackPageview']];
@@ -28,5 +29,13 @@
             {% if page.brief %}<h2 class="subheader">{{ page.brief }}</h2>{% endif %}
             {{ content }}
         </main>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            $(function() {
+                $('body').on('click', 'a[href*="//"]', function(e){
+                    $(this).attr('target', '_blank');
+                });
+            });
+        </script>
     </body>
 </html>
