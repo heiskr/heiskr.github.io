@@ -71,3 +71,7 @@ time {
     text-align: right;
     display: block;
     margin: 16px 0; }
+
+.monospace, pre, samp, code, kbd {
+  font-family: menlo, "dejavu sans mono", "bitstream vera sans mono", consolas, inconsolata, "lucida console", monaco, monospace;
+}
