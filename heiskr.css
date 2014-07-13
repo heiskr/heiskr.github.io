@@ -1,77 +1,102 @@
-body, input, select, textarea {
-  background: white;
-  color: #222222;
+body,
+input,
+select,
+textarea {
+  background: #fff;
+  color: #222;
   line-height: 24px;
   font-size: 16px;
-  font-family: sans-serif; }
-
-h1, h2, h3, h4, h5, h6 {
+  font-family: "palatino linotype", palatino, palladio, "urw palladio l", "book antiqua", serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
-  margin: 16px 0; }
-  h1.subheader, h2.subheader, h3.subheader, h4.subheader, h5.subheader, h6.subheader {
-    margin: -16px 0 16px;
-    color: #909090; }
-
+  margin: 16px 0;
+}
+h1.subheader,
+h2.subheader,
+h3.subheader,
+h4.subheader,
+h5.subheader,
+h6.subheader {
+  margin: -$unit 0 16px;
+  color: #909090;
+}
 h1 {
   font-size: 32px;
-  line-height: 48px; }
-
+  line-height: 48px;
+}
 h2 {
   font-size: 24px;
-  line-height: 32px; }
-
+  line-height: 32px;
+}
 h3 {
   font-size: 20px;
-  line-height: 24px; }
-
-h4, h5, h6 {
+  line-height: 24px;
+}
+h4,
+h5,
+h6 {
   font-size: 16px;
-  line-height: 24px; }
-
-menu, ol, ul {
-  padding: 0 0 0 32px; }
-
+  line-height: 24px;
+}
+menu,
+ol,
 ul {
-  list-style: square; }
-
+  padding: 0 0 0 32px;
+}
+ul {
+  list-style: square;
+}
 a {
   color: #0074d9;
   border-bottom: 1px solid #0074d9;
-  text-decoration: none; }
-  a:hover {
-    color: #0d8eff;
-    border-bottom-color: #0d8eff; }
-
+  text-decoration: none;
+}
+a:hover {
+  color: #0084f6;
+  border-bottom-color: #0084f6;
+}
 hr {
   border: 0;
   border-top: 1px solid #909090;
   height: 0;
-  margin: 16px 0; }
-
+  margin: 16px 0;
+}
 header {
   clear: both;
   width: 640px;
   margin: 16px auto;
-  border-bottom: 1px solid #909090; }
-  header a {
-    font-size: 24px;
-    line-height: 32px;
-    border-bottom: 0; }
-
+  border-bottom: 1px solid #909090;
+}
+header a {
+  font-size: 24px;
+  line-height: 32px;
+  border-bottom: 0;
+}
 small {
-  font-size: 12px; }
-
+  font-size: 12px;
+}
 main {
   width: 640px;
-  margin: 16px auto; }
-
+  margin: 16px auto;
+}
 time {
-  color: #909090; }
-  time.project-time {
-    text-align: right;
-    display: block;
-    margin: 16px 0; }
-
-.monospace, pre, samp, code, kbd {
+  color: #909090;
+}
+time.project-time {
+  text-align: right;
+  display: block;
+  margin: 16px 0;
+}
+.monospace,
+pre,
+samp,
+code,
+kbd {
   font-family: menlo, "dejavu sans mono", "bitstream vera sans mono", consolas, inconsolata, "lucida console", monaco, monospace;
 }
