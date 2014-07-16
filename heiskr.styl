@@ -1,5 +1,5 @@
-$background-color = #fff
-$foreground-color = #222
+$background-color = #fbf9f9
+$foreground-color = #001b33
 $middle-color = mix($background-color, $foreground-color)
 $link-color = #0074D9
 $unit = 16px
@@ -58,21 +58,24 @@ hr
     margin $unit 0
 
 header
-    clear both
-    width $width
-    margin $unit auto
-    border-bottom 1px solid $middle-color
+    background darken($background-color, 5%)
 
     a
-        font-size $unit * 1.5
+        display block
+        max-width $width
+        margin 0 auto
+        padding $unit
+        font-size $unit * 1.25
         line-height $unit * 2
         border-bottom 0
+        color lighten($foreground-color, 20%)
 
 small
     font-size 12px
 
 main
-    width $width
+    max-width $width
+    padding 0 $unit
     margin $unit auto
 
 time
