@@ -2,8 +2,8 @@ body,
 input,
 select,
 textarea {
-  background: #fbf9f9;
-  color: #001b33;
+  background: #fff;
+  color: #222;
   line-height: 24px;
   font-size: 16px;
   font-family: "palatino linotype", palatino, palladio, "urw palladio l", "book antiqua", serif;
@@ -24,7 +24,7 @@ h4.subheader,
 h5.subheader,
 h6.subheader {
   margin: -$unit 0 16px;
-  color: #7d8a96;
+  color: #909090;
 }
 h1 {
   font-size: 32px;
@@ -63,12 +63,12 @@ a:hover {
 }
 hr {
   border: 0;
-  border-top: 1px solid #7d8a96;
+  border-top: 1px solid #909090;
   height: 0;
   margin: 16px 0;
 }
 header {
-  background: #f1eaea;
+  background: #f2f2f2;
 }
 header a {
   display: block;
@@ -78,7 +78,7 @@ header a {
   font-size: 20px;
   line-height: 32px;
   border-bottom: 0;
-  color: #004c8f;
+  color: #4e4e4e;
 }
 small {
   font-size: 12px;
@@ -89,7 +89,7 @@ main {
   margin: 16px auto;
 }
 time {
-  color: #7d8a96;
+  color: #909090;
 }
 time.project-time {
   text-align: right;
