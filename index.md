@@ -10,8 +10,8 @@ Current Activities
 
 - Working for [Nike Digital Sport](https://secure-nikeplus.nike.com/plus/) as client engineer
 - Building [Subvoko](https://github.com/heiskr/subvoko), interactive music creature experience.
-- Building [Sagefy](http://sagefy.org/), an adaptive, collaborative, and open learning platform.
-- Maintaining [ConceptCodify](http://conceptcodify.com), a card sorting app.
+- Building [Sagefy](https://sagefy.org/), an adaptive, collaborative, and open learning platform.
+- Maintaining [ConceptCodify](https://conceptcodify.com), a card sorting app.
 - Usually a course on [Coursera](https://www.coursera.org/), or a book, on programming, design, or learning psychology.
 - Yoga everyday.
 
