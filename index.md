@@ -1,19 +1,18 @@
 ---
 layout: default
-title: Welcome
 ---
 
-I'm a web client engineer and audiovisual interactive artist in Portland, OR.
+_I'm a web client engineer and audiovisual interactive artist in Portland, OR._
 
 Current Activities
 ------------------
 
-- Working for [Nike Digital Sport](https://secure-nikeplus.nike.com/plus/) as client engineer
-- Building [Subvoko](https://github.com/heiskr/subvoko), interactive music creature experience.
+- Working for [Nike+](https://secure-nikeplus.nike.com/plus/) as client engineer.
 - Building [Sagefy](https://sagefy.org/), an adaptive, collaborative, and open learning platform.
+- Building [Subvoko](https://github.com/heiskr/subvoko), interactive music creature experience.
 - Maintaining [ConceptCodify](https://conceptcodify.com), a card sorting app.
 - Usually a course on [Coursera](https://www.coursera.org/), or a book, on programming, design, or learning psychology.
-- Yoga everyday.
+- Yoga.
 
 Links
 -----
@@ -33,21 +32,3 @@ Posts
         </li>
     {% endfor %}
 </ul>
-
-Student Projects
-----------------
-
-The projects listed here are from my student days (~2004-2010).
-
-<ul>
-    {% for project in site.data.projects %}
-        {% if project.featured %}
-            <li>
-                <a href="/projects/{{ project.slug }}">{{ project.title }}</a>
-                {{ project.brief }}
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
-
-<p><a href="/projects">See more projects &gt;</a></p>
