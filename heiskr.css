@@ -80,6 +80,12 @@ header a {
   border-bottom: 0;
   color: #4e4e4e;
 }
+footer {
+  background: #f2f2f2;
+  max-width: 640px;
+  padding: 16px;
+  margin: 0 auto;
+}
 small {
   font-size: 12px;
 }

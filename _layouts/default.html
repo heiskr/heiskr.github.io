@@ -31,6 +31,9 @@
             {% if page.brief %}<h2 class="subheader">{{ page.brief }}</h2>{% endif %}
             {{ content }}
         </main>
+        <footer>
+            &copy; Copyright {{ site.time | date: "%Y" }} Kevin Heis
+        </footer>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script>
             $(function() {
