@@ -54,7 +54,7 @@ _February 2014 to Current_
 _October 2012 to Current_
 
 - Designed and developed a user research web application independently
-- Marketed and supported, reaching to and now actively used by over 1500 user research professionals
+- Marketed and supported, reaching to and now actively used by over 6500 user research professionals
 
 ### Lead User Interface Engineer for Househappy
 
