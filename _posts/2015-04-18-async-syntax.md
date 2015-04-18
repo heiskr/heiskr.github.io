@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Async Syntax: Labelled Returns
+title: Async Syntax &ndash; Labelled Returns
 ---
 
 I'll show one way we could handle asynchronous code. Then, I'll compare this method with existing patterns.
