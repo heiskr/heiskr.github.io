@@ -51,7 +51,7 @@ _February 2014 to Current_
 
 ### Founder of ConceptCodify
 
-_October 2012 to Current_
+_October 2012 to September 2015_
 
 - Designed and developed a user research web application independently
 - Marketed and supported, reaching to and now actively used by over 6500 user research professionals
