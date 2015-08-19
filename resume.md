@@ -15,6 +15,7 @@ _February 2014 to Current_
 - Organizer for the Nike JavaScript User Group
 - Developed responsive data visualizations using D3
 - Contributed to Node.js server code
+- Implemented localization across different types of user experiences
 
 ### Founder of ConceptCodify
 
