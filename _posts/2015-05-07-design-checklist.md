@@ -95,3 +95,16 @@ Psychology
 - [ ] Decide based on user behavior.
 - [ ] Research user opinions before making changes.
 - [ ] Combine, remove, simplify, and generalize to avoid feature creep.
+
+----
+
+- [ ] Include a privacy policy.
+- [ ] Have a single, clear call-to-action per page.
+- [ ] Use multiple ways to convey information, not relying only on color.
+- [ ] Consistent navigation on every page.
+- [ ] Links should start with a verb. No 'click here'.
+- [ ] Most important content should be displayed first.
+- [ ] Responsive with no horizontal scrolling.
+- [ ] Avoid pop-ups and modals.
+- [ ] Consider error states.
+- [ ] Show errors in relevant places, not in one place.
