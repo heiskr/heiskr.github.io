@@ -1,5 +1,7 @@
-  [90mcompiled[0m heiskr.css
-
+body,
+input,
+select,
+textarea {
   background: #fff;
   color: #222;
   line-height: 24px;
