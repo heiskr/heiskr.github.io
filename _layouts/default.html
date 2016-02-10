@@ -31,16 +31,5 @@
             {% if page.brief %}<h2 class="subheader">{{ page.brief }}</h2>{% endif %}
             {{ content }}
         </main>
-        <footer>
-            &copy; Copyright {{ site.time | date: "%Y" }} Kevin Heis
-        </footer>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script>
-            $(function() {
-                $('body').on('click', 'a[href*="//"]', function(e){
-                    $(this).attr('target', '_blank');
-                });
-            });
-        </script>
     </body>
 </html>
