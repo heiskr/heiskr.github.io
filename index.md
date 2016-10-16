@@ -21,3 +21,4 @@ Links
 
 - [<i class="fa fa-github"></i> Github](https://github.com/heiskr)
 - [<i class="fa fa-twitter"></i> Twitter](https://twitter.com/heiskr)
+- [<i class="fa fa-medium"></i> Medium](https://medium.com/@heiskr)
