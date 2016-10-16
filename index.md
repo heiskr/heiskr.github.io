@@ -2,16 +2,19 @@
 layout: default
 ---
 
-_I'm a web client engineer and audiovisual interactive artist in Portland, OR._
+_Web geek and musician. Founder of [Sagefy](https://sagefy.org/). In Portland, OR._
 
 Current Activities
 ------------------
 
 - Working for [Nike+](https://secure-nikeplus.nike.com/plus/) as a JavaScript engineer.
 - Building [Sagefy](https://sagefy.org/), an adaptive, collaborative, and open learning platform.
-- Building [Subvoko](https://github.com/heiskr/subvoko), interactive music creature experience.
+- Dreaming of [Subvoko](https://github.com/heiskr/subvoko), interactive music creature experience.
 - Usually a course on [Coursera](https://www.coursera.org/), or a book, on programming, design, or learning psychology.
+- Raising a Havanese puppy.
+- Piano/Synth.
 - Yoga.
+- Running (slowly).
 
 Links
 -----
