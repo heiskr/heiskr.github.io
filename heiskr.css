@@ -1,12 +1,19 @@
-body,
-input,
-select,
-textarea {
+body {
   background: #fff;
   color: #222;
   line-height: 24px;
   font-size: 16px;
-  font-family: georgia, serif;
+  font-family: rubik, serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  font-weight: 500;
 }
 h1,
 h2,
@@ -14,7 +21,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
   margin: 16px 0;
 }
 h1.subheader,
@@ -44,7 +50,6 @@ h6 {
   font-size: 16px;
   line-height: 24px;
 }
-menu,
 ol,
 ul {
   padding: 0 0 0 32px;
@@ -61,12 +66,6 @@ a:hover {
   color: #0084f6;
   border-bottom-color: #0084f6;
 }
-hr {
-  border: 0;
-  border-top: 1px solid #909090;
-  height: 0;
-  margin: 16px 0;
-}
 header {
   background: #f2f2f2;
 }
@@ -80,36 +79,8 @@ header a {
   border-bottom: 0;
   color: #4e4e4e;
 }
-footer {
-  color: #646464;
-  background: #f2f2f2;
-  padding: 16px;
-  margin: 0 auto;
-  text-align: right;
-}
-small {
-  font-size: 12px;
-}
 main {
   max-width: 640px;
   padding: 0 16px;
   margin: 16px auto;
-}
-time {
-  color: #909090;
-}
-time.project-time {
-  text-align: right;
-  display: block;
-  margin: 16px 0;
-}
-.monospace,
-pre,
-samp,
-code,
-kbd {
-  font-family: menlo, "dejavu sans mono", "bitstream vera sans mono", consolas, inconsolata, "lucida console", monaco, monospace;
-  font-size: 14px;
-  background: #f2f2f2;
-  border-radius: 2px;
 }
