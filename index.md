@@ -8,13 +8,13 @@ Current Activities
 ------------------
 
 - Working for [Nike](https://www.nike.com/) as a web engineer.
-- Building [Sagefy](https://sagefy.org/), an adaptive, collaborative, and open learning platform.
+- Building [Sagefy](https://sagefy.org/), an open-content adaptive learning platform.
 - Dreaming of my next interactive music project.
 - Usually an online course, or a book, on programming, interface design, electronic music, or learning psychology.
-- Raising two Havanese.
+- Playing with two Havanese.
 - Playing Piano/Synth, poorly.
 - Yoga, vaguely.
-- Running, slowly.
+- Hiking, occasionally.
 
 Links
 -----
