@@ -2,7 +2,7 @@
 layout: default
 ---
 
-_Web geek and musician. Founder of [Sagefy](https://sagefy.org/). In Portland, OR._
+_Web geek and musician. Building [Sagefy](https://sagefy.org/). In Portland, OR._
 
 Current Activities
 ------------------
