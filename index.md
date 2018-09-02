@@ -7,7 +7,7 @@ _Web geek and musician. Building [Sagefy](https://sagefy.org/). In Portland, OR.
 Current Activities
 ------------------
 
-- Working for [Nike](https://www.nike.com/) as a web engineer.
+- Working for [Github](https://www.github.com/) as an engineer.
 - Building [Sagefy](https://sagefy.org/), an open-content adaptive learning platform.
 - Dreaming of my next interactive music project.
 - Usually an online course, or a book, on programming, interface design, electronic music, or learning psychology.
