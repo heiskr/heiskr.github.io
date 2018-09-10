@@ -22,3 +22,4 @@ Links
 - [<i class="fa fa-github"></i> GitHub](https://github.com/heiskr)
 - [<i class="fa fa-twitter"></i> Twitter](https://twitter.com/heiskr)
 - [<i class="fa fa-medium"></i> Medium](https://medium.com/@heiskr)
+- [<i class="fa fa-youtube"></i> YouTube](https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ)
