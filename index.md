@@ -7,7 +7,7 @@ _Web geek and musician. Building [Sagefy](https://sagefy.org/). In Portland, OR.
 Current Activities
 ------------------
 
-- Working for [Github](https://www.github.com/) as an engineer.
+- Working for [GitHub](https://www.github.com/) as an engineer.
 - Building [Sagefy](https://sagefy.org/), an open-content adaptive learning platform.
 - Dreaming of my next interactive music project.
 - Usually an online course, or a book, on programming, interface design, electronic music, or learning psychology.
@@ -19,6 +19,6 @@ Current Activities
 Links
 -----
 
-- [<i class="fa fa-github"></i> Github](https://github.com/heiskr)
+- [<i class="fa fa-github"></i> GitHub](https://github.com/heiskr)
 - [<i class="fa fa-twitter"></i> Twitter](https://twitter.com/heiskr)
 - [<i class="fa fa-medium"></i> Medium](https://medium.com/@heiskr)
