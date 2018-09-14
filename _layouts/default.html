@@ -3,24 +3,37 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}Kevin Heis</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="/normalize.css" rel="stylesheet" />
-        <link href="/heiskr.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i" rel="stylesheet">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="icon" href="/favicon.ico">
-    </head>
-    <body>
-        <header>
-            <a href="/">Kevin Heis</a>
-        </header>
-        <main>
-            {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-            {% if page.brief %}<h2 class="subheader">{{ page.brief }}</h2>{% endif %}
-            {{ content }}
-        </main>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>Kevin Heis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="icon" href="/favicon.ico">
+  </head>
+  <style>
+    body {
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+      color: #222;
+    }
+    main {
+      padding: 1em;
+      margin: 0 auto;
+      max-width: 38em;
+    }
+    p, li {
+      line-height: 1.5;
+    }
+    a {
+      color: rgb(0, 116, 217);
+    }
+    img {
+      border-radius: 4px;
+    }
+  </style>
+  <body>
+    <main>
+      {{ content }}
+    </main>
+  </body>
 </html>

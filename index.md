@@ -2,12 +2,17 @@
 layout: default
 ---
 
+<img src="https://avatars3.githubusercontent.com/u/1221423?s=400&v=4" alt="portrait" width="200" />
+
+Kevin Heis
+==========
+
 _Web geek and musician. Building [Sagefy](https://sagefy.org/). In Portland, OR._
 
 Current Activities
 ------------------
 
-- Working for [GitHub](https://www.github.com/) as an engineer.
+- Working for [GitHub](https://www.github.com) on [GitHub Learning Lab](https://lab.github.com/).
 - Building [Sagefy](https://sagefy.org/), an open-content adaptive learning platform.
 - Dreaming of my next interactive music project.
 - Usually an online course, or a book, on programming, interface design, electronic music, or learning psychology.
