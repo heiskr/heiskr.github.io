@@ -15,10 +15,10 @@ Current Activities
 - Working for [GitHub](https://www.github.com) on [GitHub Learning Lab](https://lab.github.com/).
 - Building [Sagefy](https://sagefy.org/), an open-content adaptive learning platform.
 - Dreaming of my next interactive music project.
-- Usually an online course, or a book, on programming, interface design, electronic music, or learning psychology.
-- Playing with two Havanese.
-- Playing Piano/Synth, poorly.
-- Yoga, vaguely.
+- Usually an online course, or a book—on programming, interface design, electronic music, or learning psychology.
+- Clowning with two Havanese.
+- Playing piano & synth, poorly.
+- Doing yoga & meditating, distractedly.
 - Hiking, occasionally.
 
 Links
