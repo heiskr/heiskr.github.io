@@ -7,10 +7,9 @@ layout: default
 Kevin Heis
 ==========
 
-_Web geek and musician. Building [Sagefy](https://sagefy.org/). In Portland, OR._
+_Web geek and musician. Building [Sagefy][sagefy]. In Portland, OR._
 
-- [<i class="fa fa-github"></i> GitHub](https://github.com/heiskr)
-- [<i class="fa fa-twitter"></i> Twitter](https://twitter.com/heiskr)
+[<i class="fa fa-medium"></i> Medium][medium] — [<i class="fa fa-github"></i> GitHub][github] — [<i class="fa fa-twitter"></i> Twitter][twitter] — [<i class="fa fa-youtube"></i> YouTube][youtube]
 
 Current Activities
 ------------------
@@ -32,7 +31,7 @@ My Most Popular Medium Articles
 - [Why I'm Building Sagefy](https://sgef.cc/story)
 - [How I Write React/Redux Projects in 2018](https://medium.com/@heiskr/eadb6a2c9ecb)
 - [Interviewing Prospective Users](https://medium.com/@heiskr/20845150dd9f)
-- [...see my other <i class="fa fa-medium"></i> Medium articles](https://medium.com/@heiskr)
+- [...see my other <i class="fa fa-medium"></i> Medium articles][medium]
 
 My Most Popular YouTube Videos
 ---------------------------
@@ -41,4 +40,10 @@ My Most Popular YouTube Videos
 - [Let's Write a Redux from Scratch](https://youtu.be/j9Z86CLg9YY)
 - [With the Web Audio API, build a drum machine & synth](https://youtu.be/NcU8OkhXbz4)
 - [How JavaScript Spies and Stubs Work](https://youtu.be/wUxmVL998FU)
-- [...ses my other <i class="fa fa-youtube"></i> YouTube videos](https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ)
+- [...see my other <i class="fa fa-youtube"></i> YouTube videos][youtube]
+
+[sagefy]: https://sagefy.org
+[medium]: https://medium.com/@heiskr
+[github]: https://github.com/heiskr
+[twitter]: https://twitter.com/heiskr
+[youtube]: https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ
