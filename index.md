@@ -47,12 +47,3 @@ My Most Popular YouTube Videos
 [github]: https://github.com/heiskr
 [twitter]: https://twitter.com/heiskr
 [youtube]: https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ
-
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
