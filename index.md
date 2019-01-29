@@ -26,7 +26,7 @@ Current Activities
 My Most Popular Medium Articles
 ----------------------------
 
-- [Eight Big Ideas of Learning [TL;DR Edition]](https://sgef.cc/tldrideas) 
+- [Eight Big Ideas of Learning [TL;DR Edition]](https://sgef.cc/tldrideas)
   - also [Full Version](https://sgef.cc/ideas) and [Checklist Format](https://sgef.cc/checklist)
 - [Why I'm Building Sagefy](https://sgef.cc/story)
 - [How I Write React/Redux Projects in 2018](https://medium.com/@heiskr/eadb6a2c9ecb)
@@ -47,3 +47,12 @@ My Most Popular YouTube Videos
 [github]: https://github.com/heiskr
 [twitter]: https://twitter.com/heiskr
 [youtube]: https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ
+
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
