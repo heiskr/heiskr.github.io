@@ -25,7 +25,7 @@ The flow of the Sagefy learner experience.
 
 There’s a few different learning models out there. The subject is diverse. [“Building Intelligent Interactive Tutors” by Beverly Park Woolf](https://www.elsevier.com/books/building-intelligent-interactive-tutors/woolf/978-0-12-373594-2) is a more comprehensive treatment. Here’s some of the major ones:
 
-### \-> Forgetting Curve
+### Forgetting Curve
 
 The [Ebbinghaus Forgetting Curve](https://en.wikipedia.org/wiki/Forgetting_curve) is one of the oldest models. Depending on the strength of the memory, our ability to remember generally follows this formula:
 
@@ -35,7 +35,7 @@ The Ebbinghaus Forgetting Curve, `r = e^(-t/s)`
 
 In this formula, `r` is retention, `tau` is time, and `s` is the strength of the memory.
 
-### \-> Learning Curve
+### Learning Curve
 
 The opposite of the forgetting curve is the learning curve:
 
@@ -49,7 +49,7 @@ Where `a` is learning. Some authors suggest an alternative model for learning, a
 
 Alternative learning curve, `a = 1/(1+e^(-(t-u)/s)))`
 
-### \-> Bayesian Knowledge Tracing
+### Bayesian Knowledge Tracing
 
 [Bayesian Knowledge Tracing](https://en.wikipedia.org/wiki/Bayesian_Knowledge_Tracing) determines how likely a learner knows a skill, based on the learner’s responses.
 
@@ -110,7 +110,7 @@ The power of Bayes is the ability to update the model each time we receive new i
 
 For a better explanation, I recommend [this video from Ryan Baker’s Big Data and Education course](https://www.youtube.com/watch?v=_7CtthPZJ70).
 
-### \-> Item Response Theory
+### Item Response Theory
 
 [Item Response Theory](http://en.wikipedia.org/wiki/Item_response_theory) determines how likely a learner will correctly answer a particular question. It is a logistic function. We use IRT is more commonly in testing, but we can use IRT in adaptive learning as well. The parameters read:
 
@@ -133,7 +133,7 @@ The formulas change slightly depending on author.
 
 We can extend Item Response Theory into [Performance Factors Analysis](http://pact.cs.cmu.edu/pubs/AIED%202009%20final%20Pavlik%20Cen%20Keodinger%20corrected.pdf). PFA is a competing model with Bayesian Knowledge Tracing.
 
-### \-> Knowledge Space Theory
+### Knowledge Space Theory
 
 [Knowledge Space Theory](http://en.wikipedia.org/wiki/Knowledge_space) represents what skills learner knows. KST derives from [antimatroids](http://en.wikipedia.org/wiki/Antimatroid).
 
@@ -156,7 +156,7 @@ An individual learner has a likelihood for each of these sets. KST makes the ass
 
 Several automated systems exist to automatically determine prerequisites based on learner performance.
 
-### \-> Spaced Repetition
+### Spaced Repetition
 
 [Spaced Repetition](http://en.wikipedia.org/wiki/Spaced_repetition) suggests that learners should spread out their practice. Reviews should happen less frequently as ability improves.
 
@@ -176,15 +176,15 @@ SuperMemo 2. `i(n) = i(n-1) * e`
 
 The latest is version [11/15](http://www.supermemo.com/english/algsm11.htm).
 
-### \-> Why Sagefy uses Bayesian Knowledge Tracing
+### Why Sagefy uses Bayesian Knowledge Tracing
 
 Sagefy uses Bayesian Knowledge Tracing. The reason is that it is a simple formula and computationally inexpensive. The other advantage is that with Bayes, the model updates each time the learner interacts with the system a little bit each time. This feature avoids expensive modeling computations all at once. That means that Sagefy can both scale more easily and handle a larger diversity of content.
 
-### \-> Adding Time to Bayesian Knowledge Tracing
+### Adding Time to Bayesian Knowledge Tracing
 
 Bayesian Knowledge Tracing does not consider forgetting. To account for forgetting, I have added a taste of the Ebbinghaus forgetting curve into the final calculation. A new formula which calculates `belief`, which is our confidence in `p(L)` given the elapsed time:
 
-> exp(-1 \* time\_delta \* (1 — learned) / belief\_factor)
+> exp(-1 * time_delta * (1 — learned) / belief_factor)
 
 I set my belief factor to 708000 based on guess-and-check. Likely, I could optimize this value later on.
 
@@ -192,7 +192,7 @@ I set my belief factor to 708000 based on guess-and-check. Likely, I could optim
 
 Everything here so far lays out how to estimate how likely the learner knows the unit. But, what the other parameters, and how do we come to know those? This is the more challenging area.
 
-### \-> Parameters of Cards, Units, and Subjects
+### Parameters of Cards, Units, and Subjects
 
 **Cards.** In Bayesian Knowledge Tracing, most implementations assign a **Guess**, **Slip**, and **Transit** at the unit level. But, for Sagefy, to get deeper information, I’ve assigned those parameters to cards. Transit informs us of the _quality_ of the card. Guess and Slip informs us of the _difficulty_ of the card. _Difficulty_ helps us to choose cards appropriate to the learner’s ability. We also want to track the **number of learners** who will we will impact when we make changes to the card.
 
@@ -202,7 +202,7 @@ Everything here so far lays out how to estimate how likely the learner knows the
 
 You can see we have lots of data about the smallest entities, and less data about higher entities. We track fine data about cards, a little less about units, and subjects just aggregate unit data. So for this section of the article, the focus will be on card parameters.
 
-### \-> Probability Mass Functions
+### Probability Mass Functions
 
 Bayes gives us the ability to make constant updates to our models instead of making big and heavy calculations all at once. To achieve this, we work with _distributions_. So instead of just resulting with a number, we have a line chart. On one axis is the possible values, on the other axis is the probability of that value being the correct answer. So as we get more data, the graph tightens around a single value.
 
@@ -212,17 +212,17 @@ PMFs are easy to work with in Bayes. Each possible value gets its own update tha
 
 Everything I know about probability mass functions I learned from the book [**Think Bayes** by Allen Downey](http://greenteapress.com/wp/think-bayes/). He gives a much better explanation than I could, and the book is free.
 
-### \-> Card Parameters
+### Card Parameters
 
 We need to update Guess, Slip, and Transit _per learner response_. Guess should increase with correct answers and decrease with incorrect answers. Slip should increase with incorrect answers and decrease with correct answers. Transit should increase if the later responses are more correct, and decrease if the later responses are less correct.
 
 For Guess and Slip, I figured how how to calculate the likelihood, though it doesn’t work as accurately as I’d like. The formula for if a learner will get an answer correct is:
 
-> learned \* (1-slip) + (1-learned) \* guess
+> learned * (1-slip) + (1-learned) * guess
 
 and incorrect…
 
-> learned \* slip + (1-learned) \* (1-guess)
+> learned * slip + (1-learned) * (1-guess)
 
 If the learner got it right, I can use the first formula as the likelihood. If the learner got it wrong, I can use the second formula. Learned is the learner’s learned. You take the prior slip to calculate guess, and the prior guess to calculate slip. The value of guess or slip is just each hypothesis (so you do this calculation per each hypothetical value). Doing the math, it means earlier learners will impact guess more, and later learners will impact slip more as expected.
 
@@ -230,17 +230,17 @@ When I ran this in simulation, it held a strong correlation to the initial value
 
 I was unable to find a way to calculate a likelihood for transit. I know the following is true:
 
-> transit = (learned\_post — learned\_pre) / (1 — learned\_pre)
+> transit = (learned_post — learned_pre) / (1 — learned_pre)
 
 This likelihood never panned out in simulation, so for now Sagefy has a set transit for all cards. _This is a major opportunity for improvement._
 
 I haven’t figured out how how to calculate the number of learners quite yet. That’s more of a technical challenge than a mathematical one.
 
-### \-> Unit and Subject Parameters
+### -> Unit and Subject Parameters
 
 I haven’t done the work to calculate the two unit and two subject parameters: **difficulty** and **number of learners**. These are both essentially database queries. The responses table can inform the difficulty. Learners subscribe to subjects, and not units. The solution requires figuring out all the relationships and then counting from there. Not impossible, but not easy either.
 
-### \-> How I’m Simulating Models and Error Rates
+### -> How I’m Simulating Models and Error Rates
 
 Because Sagefy is new, I don’t have much real user data to test my model against. For now, I’m using simulated data. I created a script that will create a random collection of subjects, units, cards, and users, all of each with random parameters within ranges. I’m using triangle ranges instead of completely linear randomization to more closely simulate real data. Then, I can run my model against the simulated data, and take error rates. We can calculate the error rate for each parameter as:
 
@@ -288,9 +288,9 @@ Now, our graph of units after diagnosis.
 
 We also have the following lists:
 
-> Diagnose: \[\]
-> Ready: \[A, C, B, E, H, D\]
-> Learned: \[F, G\]
+> Diagnose: []
+> Ready: [A, C, B, E, H, D]
+> Learned: [F, G]
 
 We are now ready to starting the learning process.
 
@@ -349,7 +349,7 @@ The proposal flow.
 
 The decision to accept a proposal has a few factors: the **reputation** of the proposer and voters and the **usage** of the entity.
 
-### \-> Entity Calculation
+### Entity Calculation
 
 We calculate the “Yes” vote power as the sum of the proposer and the “yes” voters’ vote power.
 
@@ -365,29 +365,31 @@ The reason for this is simple: its likely impossible to meet perfect consensus a
 
 _Example:_
 
-> \- Number of Learners, To Accept, To Block
-> \- 1, 0, 0
-> \- 10, 3.32, 0.5
-> \- 100, 6.64, 1
-> \- 1000, 9.97, 1.5
-> \- 10000, 13.28, 2
-> \- 100000, 16.61, 2.5
+| Number of Learners | To Accept | To Block |
+| -----------------: | --------: | -------: |
+| 1 | 0 | 0 |
+| 10 | 3.32 | 0.5 |
+| 100 | 6.64 | 1 |
+| 1000 | 9.97 | 1.5 |
+| 10000 | 13.28 | 2 |
+| 100000 | 16.61 | 2.5 |
 
-### \-> Contributor Calculation
+### Contributor Calculation
 
 Each proposal and vote for a proposal in accepted state counts as +1 point. Sagefy calculates the vote power as `1-e^(-points/40)`. This may seem like a convoluted formula. The reason is to avoid “superusers” who by their linear reputation alone can make any change. The difference between 0 and 10 successful contributions gives us lots of information. 10 to 100, less so. And 100 to 1000, even less. We learn the most from the earliest examples, and less with each example.
 
 _Example:_
 
-> \- Points: Power
-> \- 0: 0
-> \- 5: 0.12
-> \- 10: 0.22
-> \- 20: 0.39
-> \- 50: 0.71
-> \- 100: 0.91
-> \- 150: 0.97
-> \- 200: 0.99
+| Points | Power |
+| -----: | ----: |
+| 0 | 0 |
+| 5 | 0.12 |
+| 10 | 0.22 |
+| 20 | 0.39 |
+| 50 | 0.71 |
+| 100 | 0.91 |
+| 150 | 0.97 |
+| 200 | 0.99 |
 
 ## Call to Action
 

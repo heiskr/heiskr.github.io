@@ -211,13 +211,13 @@ In this section, I’ll talk about some of the existing learning systems and how
 
 ![](https://cdn-images-1.medium.com/max/600/1*kDvs12idIj-7-JoETbl-wg.jpeg)
 
-The classroom suffers from both a lack of scale and adaptability. [https://commons.wikimedia.org/wiki/File:Andrew\_Classroom\_De\_La\_Salle\_University.jpeg](https://commons.wikimedia.org/wiki/File:Andrew_Classroom_De_La_Salle_University.jpeg)
+The classroom suffers from both a lack of scale and adaptability. [https://commons.wikimedia.org/wiki/File:Andrew_Classroom_De_La_Salle_University.jpeg](https://commons.wikimedia.org/wiki/File:Andrew_Classroom_De_La_Salle_University.jpeg)
 
 [**_Classroom learning_**](https://en.wikipedia.org/wiki/Classroom)**_._** When we think of education, the classroom comes to mind first. The classroom can be a wonderful place to learn, to interact with other learners, and engage the content fully. The best classes motivate and inspire. Unfortunately, many classes don’t meet this bar. With so many learners, it is very difficult to create a system where the the system adapts the content tightly to the learner’s knowledge and goals. The classroom isn’t a free thing by any means, either, limiting its reach. Some teachers do a wonderful job of staying focused, showing examples, showing organization, getting learners to learn together, and going deep with the materials. But not all do. Probably not most.
 
 ![](https://cdn-images-1.medium.com/max/600/1*y363FFPgHkLwfp-89zOMxQ.png)
 
-A screenshot of Moodle, an open-source learning management system. Designed to support in person classes, but sometimes used to teach a course by itself. [https://commons.wikimedia.org/wiki/File:1\_MyHomeExample.png](https://commons.wikimedia.org/wiki/File:1_MyHomeExample.png)
+A screenshot of Moodle, an open-source learning management system. Designed to support in person classes, but sometimes used to teach a course by itself. [https://commons.wikimedia.org/wiki/File:1_MyHomeExample.png](https://commons.wikimedia.org/wiki/File:1_MyHomeExample.png)
 
 [**_Learning management systems_**](https://en.wikipedia.org/wiki/Learning_management_system)**_._** Learning management systems, or LMSs, are the most common educational technology used. Schools probably use [Blackboard](http://www.blackboard.com/) most frequently. The intention of the technology is to support or replace the classroom experience. The LMS’s features are almost completely driven around the classroom model. So most of the same issues with the classroom would apply to LMS, including both scale and adaptability. Most LMSs are not adaptive. [SmartSparrow](https://www.smartsparrow.com/) is one example of an LMS that is.
 
@@ -229,7 +229,7 @@ A screenshot from Cognitive Tutor, a current adaptive learning system. The inter
 
 ![](https://cdn-images-1.medium.com/max/600/1*x1xgAdgZ7KZnQK5p0sdx3w.png)
 
-Screenshot from Khan Academy, a massively open online course. Here we see a ‘blackboard’ style video explanation. Some of this content is best in class. [https://commons.wikimedia.org/wiki/File:Khan\_Academy\_%282012%29.\_Transfer\_Pricing\_and\_Tax\_Havens.webm](https://commons.wikimedia.org/wiki/File:Khan_Academy_%282012%29._Transfer_Pricing_and_Tax_Havens.webm)
+Screenshot from Khan Academy, a massively open online course. Here we see a ‘blackboard’ style video explanation. Some of this content is best in class. [https://commons.wikimedia.org/wiki/File:Khan_Academy_%282012%29._Transfer_Pricing_and_Tax_Havens.webm](https://commons.wikimedia.org/wiki/File:Khan_Academy_%282012%29._Transfer_Pricing_and_Tax_Havens.webm)
 
 [**_Massive open online courses_**](https://en.wikipedia.org/wiki/Massive_open_online_course)**_._** Massively open online courses provide a LMS type of experience for free or low cost to a large audience. A few examples are [Khan Academy](https://www.khanacademy.org/), [Coursera](https://www.coursera.org/), [Duolingo](https://www.duolingo.com/), and [EdX](https://www.edx.org/). MOOCs scale widely, but still rely on expert created content and generally are not very adaptive. Some have some adaptive or adaptive-like features, like quizzes or practice questions that change in difficulty. Most MOOCs have the same disadvantages as LMSs. The quality varies widely; some of the content is best in class, some of it is thrown together.
 
@@ -243,7 +243,7 @@ A screenshot of Anki, a flash card system based on spaced repetition. [https://c
 
 ![](https://cdn-images-1.medium.com/max/600/1*S6Z0TghQ32gIRPVkEiqTaw.png)
 
-A screenshot from Wikipedia, the largest open-content system that exists. [https://commons.wikimedia.org/wiki/Wikipedia#/media/File:Www.wikipedia.org\_screenshot\_2013.png](https://commons.wikimedia.org/wiki/Wikipedia#/media/File:Www.wikipedia.org_screenshot_2013.png)
+A screenshot from Wikipedia, the largest open-content system that exists. [https://commons.wikimedia.org/wiki/Wikipedia#/media/File:Www.wikipedia.org_screenshot_2013.png](https://commons.wikimedia.org/wiki/Wikipedia#/media/File:Www.wikipedia.org_screenshot_2013.png)
 
 [**_Open content systems_**](https://en.wikipedia.org/wiki/Open_content)**_._** Current open content systems provide deep, high quality content on a variety of topics. However, they do not have adaptive qualities generally. The most common and largest example is [Wikipedia](https://www.wikipedia.org/).
 
@@ -275,7 +275,7 @@ My friend Noah came for a visit for a few days in early 2013. I talked about my 
 
 ![](https://cdn-images-1.medium.com/max/600/1*DepXJSnweY5eP0vSKGSVJA.jpeg)
 
-The equations for Bayesian Knowledge Tracing. It is simpler than it looks. P(L) is probability learned, P(S) is probability of “slip”, or making a mistake, and P(G) is probability of “guess”. P(T) is probability of “transit”, or how likely the learner learned the content from this material. From [https://www.researchgate.net/publication/249424313\_Individualized\_Bayesian\_Knowledge\_Tracing\_Models](https://www.researchgate.net/publication/249424313_Individualized_Bayesian_Knowledge_Tracing_Models)
+The equations for Bayesian Knowledge Tracing. It is simpler than it looks. P(L) is probability learned, P(S) is probability of “slip”, or making a mistake, and P(G) is probability of “guess”. P(T) is probability of “transit”, or how likely the learner learned the content from this material. From [https://www.researchgate.net/publication/249424313_Individualized_Bayesian_Knowledge_Tracing_Models](https://www.researchgate.net/publication/249424313_Individualized_Bayesian_Knowledge_Tracing_Models)
 
 I already knew how to build a web API and a web UI. So as I started [planning](https://github.com/heiskr/sagefy/wiki/Planning) and working on those, I researched the algorithms side. I’ve taken quite a few online courses on different platforms, one of which being Ryan Baker’s [Big Data and Education](http://www.columbia.edu/~rsb2162/bigdataeducation.html) course. Particularly, I understood the [Bayesian Knowledge Tracing](https://www.youtube.com/watch?v=_7CtthPZJ70) section and saw a perfect fit for what I was trying to build. Now, an MVP [exists and is live](https://sagefy.org), ready for use.
 

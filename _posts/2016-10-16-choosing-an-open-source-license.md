@@ -41,7 +41,7 @@ The next two most common are **GPL2** and **Apache 2**. Apache 2 is popular with
 
 I further researched about setting up an open-source project. I realized I knew little about the differences between the licenses. So here’s my non-lawyer take on them. Please note I am **NOT A LAWYER**. _And this is not legal advice_. If you have questions, you should talk with an intellectual property attorney.
 
-### **The permissive licenses: MIT, Apache 2, BSD 2-clause, BSD 3-clause, and Unlicense**
+### The permissive licenses: MIT, Apache 2, BSD 2-clause, BSD 3-clause, and Unlicense
 
 If I want a super permissive license or have no idea what I want, **I pick MIT**. If I am concerned about patents, contributor agreements, or trademarks, **I choose Apache 2**. Be aware if you pick Apache 2, other open source projects under GPL2 may be reluctant to use your project.
 
@@ -73,7 +73,7 @@ The [**BSD 2-clause**](https://opensource.org/licenses/BSD-2-Clause) is like the
 
 I can’t imagine there’s much of a practical difference between MIT and Unlicense. _Again, speaking as not-a-lawyer_.
 
-### **The copyleft licenses: GPL2, GPL3, LGPL3, AGPL3**
+### The copyleft licenses: GPL2, GPL3, LGPL3, AGPL3
 
 The split here comes down to values. If you want anyone to use your software — a person, an organization, a business, whatever — then permissive licenses are the way to go. But, if you want derivatives _to stay completely in the realm of open source_, **GPL** may be the right way to go for you. If you choose a copyleft license, many companies will be _reluctant_ to use your software. _The essence of a copyleft license is derivative works must use the same license._
 

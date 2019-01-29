@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Eight Big Ideas of Learning \[TL;DR Edition\]"
+title: "Eight Big Ideas of Learning [TL;DR Edition]"
 ---
 
-# Eight Big Ideas of Learning \[TL;DR Edition\]
+# Eight Big Ideas of Learning [TL;DR Edition]
 
 _Research-backed strategies for better learning_
 

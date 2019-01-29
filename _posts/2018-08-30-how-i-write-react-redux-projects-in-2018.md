@@ -73,7 +73,7 @@ Other than a quick demo project, I would recommend using [**eslint**](https://es
 
 ```json
 {
-  "extends": \["airbnb", "prettier", "prettier/react"\],
+  "extends": ["airbnb", "prettier", "prettier/react"],
   "env": {
     "node": true,
     "browser": true,
@@ -103,12 +103,12 @@ Even if you aren’t using React/Redux, I would recommend using `[**lodash.get**
 // before lodash.get
 const userEmail = state &&
                   state.users &&
-                  state.users\[userId\] &&
-                  state.users\[userId\].email ||
+                  state.users[userId] &&
+                  state.users[userId].email ||
                   ''
 
 // after lodash.get
-const userEmail = get(state, \['users', userId, 'email'\], '')
+const userEmail = get(state, ['users', userId, 'email'], '')
 ```
 
 There’s many **styling** tool options today. In recent years I’ve worked with `[sass](https://sass-lang.com/)`, `[stylus](http://stylus-lang.com/)`, and `[glamor](https://github.com/threepointone/glamor)` the most. Every project has different requirements here so I can’t make a general recommendation. If you are starting a new project, I would drop in `[normalize.css](https://necolas.github.io/normalize.css/)` and then have a single CSS file. You can change to something else when the file becomes too large. You could also look at a full CSS system like [tachyons](https://tachyons.io/) or [Bootstrap](https://getbootstrap.com/) if your project doesn’t have too specific design requirements.
@@ -211,7 +211,7 @@ For actually handling requests, I would recommend [Express](https://expressjs.co
 ```
 const app = express()
 
-const html = \`
+const html = `
 <!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -223,9 +223,9 @@ const html = \`
 <script src="[https://cdn.polyfill.io/v2/polyfill.min.js](https://cdn.polyfill.io/v2/polyfill.min.js)"></script>
 <script src="/index2.js"></script>
 </body>
-\`
+`
 
-app.get(/.\*/, (request, response) => {
+app.get(/.*/, (request, response) => {
   const store = createStore(reducer, applyMiddleware(logger))
   // once the store is filled of data, then...
   const myContext = {}
@@ -284,20 +284,20 @@ module.exports = {
     userId: '',
   },
   users: {
-    '\[id\]': {
+    '[id]': {
       name: '',
       email: '',
     },
   },
   messages: {
-    '\[id\]': {
+    '[id]': {
       toUser: '',
       fromUser: '',
       content: '',
     },
   },
   requests: {
-    '\[id\]': {
+    '[id]': {
       endpoint: '',
       success: false,
       failed: false,
@@ -320,7 +320,7 @@ Your state schema can also serve as your _default state_. You only need a functi
 function createDefaultState(schema) {
   return Object.keys(schema).reduce(
     (sum, key) => {
-      sum\[key\] = isCollection(sum\[key\]) ? {} : schema\[key\]
+      sum[key] = isCollection(sum[key]) ? {} : schema[key]
       return sum
     },
     {}
@@ -335,10 +335,10 @@ I’ve worked on projects where every field and collection had its own unique se
 ```
 // state/global.js
 function globalReducer(state, action) {
-  if (action.type === SET\_USER\_ID) {
+  if (action.type === SET_USER_ID) {
     return { ...state, userId: action.payload }
   }
-  if (action.type === RESET\_USER\_ID) {
+  if (action.type === RESET_USER_ID) {
     return { ...state, userId: schema.global.userId }
   }
   return state
@@ -346,12 +346,12 @@ function globalReducer(state, action) {
 
 // state/users.js
 function usersReducer(state, action) {
-  if (action.type === ADD\_USER) {
-    return { ...state, \[action.payload.id\]: action.payload }
+  if (action.type === ADD_USER) {
+    return { ...state, [action.payload.id]: action.payload }
   }
-  // ... ADD\_USERS, UPDATE\_USER, UPDATE\_USERS, ...
-  // ... REMOVE\_USER, REMOVE\_USERS ...
-  if (action.type === RESET\_USERS) {
+  // ... ADD_USERS, UPDATE_USER, UPDATE_USERS, ...
+  // ... REMOVE_USER, REMOVE_USERS ...
+  if (action.type === RESET_USERS) {
     return {}
   }
   return state
@@ -418,7 +418,7 @@ For each endpoint, I have three functions. The top level is the actual service c
 function getMessages(dispatch, getState) {
   const params = formatGetMessagesRequest(getState())
   const id = uuid4()
-  dispatch(addRequest({ id, endpoint: GET\_MESSAGES }))
+  dispatch(addRequest({ id, endpoint: GET_MESSAGES }))
   return fetch('/messages', params)
     .then(response => response.json())
     .then((response) => {
@@ -449,7 +449,7 @@ function formatGetMessagesRequest(state) {
 }
 
 function formatGetMessagesResponse(response) {
-  return get(response, 'messages', \[\]).map(message => ({
+  return get(response, 'messages', []).map(message => ({
     toUser: get(message, 'toUser', ''),
     fromUser: get(message, 'fromUser', ''),
     content: get(message, 'content', ''),
@@ -484,7 +484,7 @@ There’s two primary ways to think about cascading state changes. One way is to
 ```
 const serviceMiddleware = store => next => action => {
   const result = next(action)
-  if (action.type === GET\_MESSAGES) {
+  if (action.type === GET_MESSAGES) {
     getMessages(store.dispatch, store.getState)
   }
   return result
@@ -532,8 +532,8 @@ function Messages(state) {
     <div id="Messages">
       { Object.keys(state.messages).map(messageId => (
         <ul>
-          <li>From: {state.users\[state.messages\[messageId\].fromUser\].name}</li>
-          <li>{state.messages\[messageId\].content}</li>
+          <li>From: {state.users[state.messages[messageId].fromUser].name}</li>
+          <li>{state.messages[messageId].content}</li>
         </ul>
       )) }
     </div>
@@ -549,7 +549,7 @@ function Messages({ messages }) {
     <div id="Messages">
       { messages.map(message => (
         <ul>
-          <li>From: {fromUserName\]}</li>
+          <li>From: {fromUserName]}</li>
           <li>{content}</li>
         </ul>
       )) }
@@ -560,8 +560,8 @@ function Messages({ messages }) {
 function mapStateToProps(state) {
   return {
     messages: Object.keys(state.messages).map(messageId => ({
-      fromUserName: state.users\[state.messages\[messageId\].fromUser\].name,
-      content: state.messages\[messageId\].content,
+      fromUserName: state.users[state.messages[messageId].fromUser].name,
+      content: state.messages[messageId].content,
     }))
   }
 }
@@ -576,7 +576,7 @@ function getMessagesNaive(state) {
 
 function getMessagesArray(state) {
   const naive = getMessagesNaive(state)
-  return Object.keys(naive).map(id => { ...naive\[id\], id })
+  return Object.keys(naive).map(id => { ...naive[id], id })
 }
 
 function getMessages(state) {
@@ -584,7 +584,7 @@ function getMessages(state) {
   const messages = getMessagesArray(state)
   return messages.map(message => ({
     ...message,
-    fromUserName: get(users, \[message.fromUser, 'name'\])
+    fromUserName: get(users, [message.fromUser, 'name'])
   }))
 }
 
