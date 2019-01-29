@@ -3,16 +3,9 @@ layout: post
 title: "How I Write React/Redux Projects in 2018"
 ---
 
-How I Write React/Redux Projects in 2018
-========================================
-
-I’ve been in JavaScript development for about thirteen years. I’ve been through Prototype.js, YUI, MooTools, jQuery, Backbone, Angular, and…
-
-* * *
-
 ![](https://cdn-images-1.medium.com/max/2560/1*t68g37Fr0rgyki0Ch9lM4g.jpeg)
 
-### How I Write React/Redux Projects in 2018
+# How I Write React/Redux Projects in 2018
 
 I’ve been in JavaScript development for about thirteen years. I’ve been through [Prototype.js](http://prototypejs.org/), [YUI](https://yuilibrary.com/), [MooTools](https://mootools.net/), [jQuery](https://jquery.com/), [Backbone](http://backbonejs.org/), [Angular](https://angular.io/), and now [React](https://reactjs.org/) (and countless other libraries and tools). I’ve been mostly working on React/[Redux](https://redux.js.org/) browser projects for the last four years on a variety of projects.
 
@@ -24,7 +17,7 @@ The **“in 2018”** part is relevant. Every few months there’s a shiny way o
 
 Please don’t use this guide to try to override a team consensus. I’ve never seen a project fail due to technical choices; but I’ve definitely seen a project fail when the team couldn’t work together.
 
-### Why React & Redux
+## Why React & Redux
 
 **Why use React?** There is a sea of options for web browser projects. A few of the key benefits of React:
 
@@ -52,7 +45,7 @@ There’s some other libraries I recommend using. You need `react-dom` for web p
 
 The React/Redux flow, from youtu.be/hiaqhI62zZs
 
-### Overarching Principles
+## Overarching Principles
 
 There’s a few principles I’ve developed over the years working on these projects. These principles can help avoid problems. That said, there’s never an ‘always-right answer.’
 
@@ -70,14 +63,15 @@ There’s a few principles I’ve developed over the years working on these proj
 
 **Be consistent with names.** JavaScript defaults to camel-case names. Unless you have a good reason to, stick with camel-case as much as possible. You want the name of things to be as consistent as possible. The component, its styles, its filename, its CSS class name, its associated selectors… should all use the same name. It’s confusing when they don’t line up.
 
-### Configuring Local Development
+## Configuring Local Development
 
 Almost goes without saying to use **Git** for version control from day one.
 
 I would start with `[**create-react-app**](https://github.com/facebook/create-react-app)`. Unless you have no company boilerplate or other configuration you need to start with. The authors of CRA work on React as well. CRA is an easy way to get started. And there’s an easy opt-out mechanism if your project needs it later. Having seen many boilerplate systems over the years, CRA is the nicest I’ve seen. `[next.js](https://github.com/zeit/next.js/)` might make sense for your project too. If you aren’t using a boilerplate, you’ll need to install and configure [Babel](https://babeljs.io/) and [Webpack](https://webpack.js.org/) yourself.
 
-Other than a quick demo project, I would recommend using `[**eslint**](https://eslint.org/)`. The static analysis tools that come with `eslint` rival most statically typed languages. I usually opt for the [AirBnB ruleset ](https://www.npmjs.com/package/eslint-config-airbnb)— full for React projects, base otherwise. And I also add in the `[prettier](https://prettier.io/)` exceptions. There’s other configurations out there too that might work better for your project.
+Other than a quick demo project, I would recommend using [**eslint**](https://eslint.org/). The static analysis tools that come with `eslint` rival most statically typed languages. I usually opt for the [AirBnB ruleset ](https://www.npmjs.com/package/eslint-config-airbnb)— full for React projects, base otherwise. And I also add in the [prettier](https://prettier.io/) exceptions. There’s other configurations out there too that might work better for your project.
 
+```json
 {
   "extends": \["airbnb", "prettier", "prettier/react"\],
   "env": {
@@ -93,15 +87,19 @@ Other than a quick demo project, I would recommend using `[**eslint**](https://e
     }
   }
 }
+```
 
-Speaking of `**prettier**`** …** much better than arguing with teammates about code style. And it reduces the number of lint warnings you have to deal with. I’ve been using semi-colon free style. In practice semi-colon style makes almost no difference either way.
+Speaking of **prettier** … much better than arguing with teammates about code style. And it reduces the number of lint warnings you have to deal with. I’ve been using semi-colon free style. In practice semi-colon style makes almost no difference either way.
 
+```
 semi: false
 singleQuote: true
 trailingComma: es5
+```
 
 Even if you aren’t using React/Redux, I would recommend using `[**lodash.get**](https://www.npmjs.com/package/lodash.get)`**.** Heavily. Branch coverage in JavaScript can become a real problem. Having to write and test every possible branch will make your tests much more brittle. JavaScript usually operates in an environment where almost anything can happen. There are rarely any guarantees. `lodash.get` is one of the tools to help deal with that reality.
 
+```javascript
 // before lodash.get
 const userEmail = state &&
                   state.users &&
@@ -111,12 +109,13 @@ const userEmail = state &&
 
 // after lodash.get
 const userEmail = get(state, \['users', userId, 'email'\], '')
+```
 
 There’s many **styling** tool options today. In recent years I’ve worked with `[sass](https://sass-lang.com/)`, `[stylus](http://stylus-lang.com/)`, and `[glamor](https://github.com/threepointone/glamor)` the most. Every project has different requirements here so I can’t make a general recommendation. If you are starting a new project, I would drop in `[normalize.css](https://necolas.github.io/normalize.css/)` and then have a single CSS file. You can change to something else when the file becomes too large. You could also look at a full CSS system like [tachyons](https://tachyons.io/) or [Bootstrap](https://getbootstrap.com/) if your project doesn’t have too specific design requirements.
 
 **Localization** isn’t a solved problem. The browser built-in `[window.Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl)` can get you pretty far by itself.
 
-### Directory Structure
+## Directory Structure
 
 My **directory structure** will look something like this:
 
@@ -136,7 +135,7 @@ My **directory structure** will look something like this:
 *   `helpers/`
 *   `images/`
 
-### Root Files
+## Root Files
 
 Every project should have a [**README**](https://en.wikipedia.org/wiki/README). Your README serves two purposes: a) documentation for developers and b) marketing. I would suggest your README contains at a least…
 
@@ -150,6 +149,7 @@ Every project should have a [**README**](https://en.wikipedia.org/wiki/README). 
 
 Your boilerplate may or may not include a `[**package.json**](https://docs.npmjs.com/files/package.json)` for you to use. The JS community used to do Grunt and then later Gulp. But now there seems to be a consensus to use the `scripts` section of `package.json.` You'll have development, build, and test commands. `package.json` now also serves as your home for tooling configuration. I could write a whole article about only this one file, so for this article that’s all I’m going to say about `package.json`.
 
+```
 {
   "name": "messages",
   "scripts": {
@@ -167,6 +167,7 @@ Your boilerplate may or may not include a `[**package.json**](https://docs.npmjs
     ...
   }
 }
+```
 
 If your project is client side only — has no [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) requirements — then a single `client.js` entry to your application will be fine. Otherwise, you’ll need a `**client.js**` and a `**server.js**`.
 
@@ -179,6 +180,7 @@ If your project is client side only — has no [SEO](https://en.wikipedia.or
 
 If you are using React Router, then [BrowserRouter](https://reacttraining.com/react-router/web/api/BrowserRouter) will be in this file.
 
+```
 const store = createStore(reducer, applyMiddleware(logger))
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -192,6 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
     container
   )
 })
+```
 
 _(All code samples in this article are for demonstration. They do not have everything needed for a production experience.)_
 
@@ -205,6 +208,7 @@ Your `**server.js**` file will need to
 
 For actually handling requests, I would recommend [Express](https://expressjs.com/). **Express** is easy to use and well supported, and perfect for this sort of situation.
 
+```
 const app = express()
 
 const html = \`
@@ -244,6 +248,7 @@ app.get(/.\*/, (request, response) => {
 app.listen(3000, () => {
   console.log('serving app realness')
 })
+```
 
 **Server-side rendering** React/Redux is difficult, and more than I can describe in this article. There’s lots that can go wrong with server-side rendering. If you don’t need to do server-side rendering, I wouldn’t. Otherwise, there’s several articles on Medium about how to approach server-side rendering with React. The rule is you need to create everything _per request_… unless you are caching.
 
@@ -253,7 +258,7 @@ If your needs start to expand on the server-side, I would recommend using the [E
 
 Cross-browser support has been easier the last few years, but there’s still [difficulty](https://kangax.github.io/compat-table/es6/) to know what features each browser is going to support. [**polyfill.io**](https://polyfill.io/v2/docs/) is an easy way to resolve that issue. You add one script tag to your HTML before your own scripts, and you’re done. Highly recommended.
 
-### State
+## State
 
 The **state** is the heart of your React/Redux project. If you master your Redux state, the rest of your application will flow from there. If you get it wrong, you’ll spend lots of time downstream trying to correct the issues.
 
@@ -273,6 +278,7 @@ When you have nested data, it’s harder to work with later on. As long as you a
 
 The way I structure my state is like:
 
+```
 module.exports = {
   global: {
     userId: '',
@@ -298,6 +304,7 @@ module.exports = {
     }
   }
 }
+```
 
 My state tree has two types: **fields** and **collections**.
 
@@ -309,6 +316,7 @@ Then I’ll have my **collections**. Each collection is an object of objects, st
 
 Your state schema can also serve as your _default state_. You only need a function that will empty out the collections into plain objects. Then you can use that to start up your Redux store in `client.js` and `server.js`. The more you integrate your state schema with your code, the more likely it will stay accurate.
 
+```
 function createDefaultState(schema) {
   return Object.keys(schema).reduce(
     (sum, key) => {
@@ -318,11 +326,13 @@ function createDefaultState(schema) {
     {}
   )
 }
+```
 
 For writing your [**reducers**](https://redux.js.org/basics/reducers), there’s been a growing consensus around the [duck pattern](https://github.com/erikras/ducks-modular-redux) and [Flux Standard Actions](https://github.com/redux-utilities/flux-standard-action). I would recommend using those. And your top level reducer can be Redux’s `[combineReducers](https://redux.js.org/api/combinereducers)`.
 
 I’ve worked on projects where every field and collection had its own unique set of actions. I’ve also worked on projects where the same set of actions were available on each field and collection, and all worked the same way. The **consistent** approach is easier to work with. For each of my “global”, flat fields, I will have two actions: _set_ and _reset._ The set can work with any value, and _reset_ will return the value back to the default. For my collections, I have seven action types: _add one_, _add many_, _update one_, _update many_, _remove one_, _remove many_, _reset_. And across collections, these all work exactly the same way. I like to have exactly those seven, so I always know what each collection can do without looking up my reducer.
 
+```
 // state/global.js
 function globalReducer(state, action) {
   if (action.type === SET\_USER\_ID) {
@@ -353,14 +363,17 @@ const reducer = combineReducers({
   users,
   messages,
 })
+```
 
 I make all my action creators the same way, using this sort of function:
 
+```
     const createAction = type => (payload, meta) =>   ({ type, payload, meta })
 
     const setUserId = createAction(SET_USER_ID)
 
 dispatch(setUserId('abcd1234'))
+```
 
 If you choose to have consistent actions, you will see the vast **boilerplate** that Redux generates. I would wait a bit until the pattern is completely clear before trying to DRY it up, and even then a little at a time.
 
@@ -368,7 +381,7 @@ Side note: I haven’t had any positive experiences with `[immutable.js](https:/
 
 _Update/Edit 2018 Oct 10:_ Check out [Redux Starter Kit](https://github.com/reduxjs/redux-starter-kit) and my [Redux Schemad](https://github.com/heiskr/redux-schemad).
 
-### Test Data
+## Test Data
 
 Having good **test data** is the most efficient way to speed up development time for almost any project. I can’t recommend it enough. You can use test data for fast local development. You’ll also have a much easier time writing unit tests.
 
@@ -387,7 +400,7 @@ I like to have an easy way to load up each of test state and render the _React t
 
 I like having at least one sample of each endpoint I will use in the project. These samples will make formatting service responses and the corresponding unit tests very easy. You could also use your sample service responses to validate the real services match your expected data format. I’ve seen some make mock services based on the sample service responses as well. Mock services are not necessary for most projects, but mock services are an option.
 
-### Services
+## Services
 
 There’s lots of ways to make **network requests**. For one, straight up `[XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)` might work for you. Otherwise, I’ve seen a growing consensus about the browser built-in, Promise-based `[window.fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)`. If you need to server-side rendering, you can find a package to get `fetch` to also run on the server. (On `[async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)`[/](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)`[await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)`: Until there’s more browser support, it transpiles heavy… I wouldn’t use it in the browser yet.)
 
@@ -401,6 +414,7 @@ For each endpoint, I have three functions. The top level is the actual service c
 4.  If the request succeeded, **format** the **response.** Then dispatch an action to **update** the state with the formatted data from the response.
 5.  Either way, **update** the **request** in the state to record the request finished.
 
+```
 function getMessages(dispatch, getState) {
   const params = formatGetMessagesRequest(getState())
   const id = uuid4()
@@ -416,6 +430,7 @@ function getMessages(dispatch, getState) {
       dispatch(updateRequest({ id, failed: true }))
     })
 }
+```
 
 Formatting the request and formatting the response can get verbose. So I will split those out into separate functions. For example:
 
@@ -423,6 +438,7 @@ Formatting the request and formatting the response can get verbose. So I will sp
 *   I have a function called `formatGetMessageRequest`. That _takes_ the Redux **state** and other parameters. And _returns_ an object of formatted **parameters** to make the request. The format I use is `format{method}{noun}Request`.
 *   I have function called `formatGetMessageResponse`. That _takes_ an API **response**.  And _returns_ the formatted response to match my **state.** That way I can dispatch actions to update my Redux state. The format I use is `format{method}{noun}Response`.
 
+```
 function formatGetMessagesRequest(state) {
   return {
     headers,
@@ -439,12 +455,13 @@ function formatGetMessagesResponse(response) {
     content: get(message, 'content', ''),
   }))
 }
+```
 
 I’ve seen some use [Normalizr](https://github.com/paularmstrong/normalizr) to handle the formatting more systematically. I haven’t run into a project where I needed a tool to handle this, but that’s an option too.
 
 Making service requests will likely be the _messiest_ part of your project. As long as you expect service calls to be a little messy, you’ll be much happier.
 
-### Redux Middleware
+## Redux Middleware
 
 So now you have a state tree, and you have service functions. But how do you know **when** to call your services? Or send analytics events?
 
@@ -464,6 +481,7 @@ So how do we write Redux middleware? Sometimes the direct approach is best. Redu
 
 There’s two primary ways to think about cascading state changes. One way is to listen to actions as we dispatch them, and call functions that match. `[redux-saga](https://redux-saga.js.org/)`, a popular library, falls into this category.
 
+```
 const serviceMiddleware = store => next => action => {
   const result = next(action)
   if (action.type === GET\_MESSAGES) {
@@ -471,9 +489,11 @@ const serviceMiddleware = store => next => action => {
   }
   return result
 }
+```
 
 The other approach is you dispatch a function that dispatches other actions for you. `redux-thunk` falls into this category. As do most other “async” libraries for Redux.
 
+```
 const thunkMiddleware = store => next => action => {
   if (typeof action === 'function') {
     return action(store.dispatch, store.getState)
@@ -486,6 +506,7 @@ dispatch((dispatch, getState) => {
     dispatch(setMessagesFetched(true))
   })
 })
+```
 
 Lots of projects are using `[redux-thunk](https://github.com/reduxjs/redux-thunk)`. When you dispatch a function instead of a plain object, the middleware calls the function. The function has access to store methods `getState` and `dispatch`. The access is what `redux-thunk` provides. Otherwise, it provides no guidance on how to make these state changes. For a single contributor, this is fine. For a team, this may be problematic.
 
@@ -497,7 +518,7 @@ I’ve seen both approaches — ‘listen then do’ and ‘do many’ —
 
 My own approach is to use my `[redux-listen](https://github.com/heiskr/redux-listen)` library. That said, it isn’t popular by any means. I find `redux-saga` heavy for most projects, and `redux-thunk` provides too little guidance. You can also easily write your own Redux middleware that makes sense for your project. I can’t make a general recommendation here, other than it depends on the project.
 
-### Selectors
+## Selectors
 
 ![](https://cdn-images-1.medium.com/max/800/1*dItNw7gpF9-1YRZtmSK9oQ.png)
 
@@ -505,6 +526,7 @@ You now have a beautifully written state with no duplicate or derivative data. A
 
 The first thing developers often do is all the formatting in the view.
 
+```
 function Messages(state) {
   return (
     <div id="Messages">
@@ -517,9 +539,11 @@ function Messages(state) {
     </div>
   )
 }
+```
 
 Soon though, the view has so much formatting and logic its hard to read or reason about. The next step is to use `[connect](https://redux.js.org/basics/usagewithreact)` from `react-redux` and have a `mapStateToProps` function. `mapStateToProps` takes the full state and returns an object that will be the props for the view. You can move your data reformatting into `mapStateToProps`. Now you have an easy-to-read view and a separate formatting function.
 
+```
 function Messages({ messages }) {
   return (
     <div id="Messages">
@@ -541,9 +565,11 @@ function mapStateToProps(state) {
     }))
   }
 }
+```
 
 However, the new problem you’ll have is you have many `mapStateToProps` functions that have duplicate formatting and logic. The solution to that problem is to use **selectors**. A selector is a function that takes a state and returns a derived value, e.g. `state => value`. You can combine selectors as well. Most developers will start all their selectors with the word `get`. You can call these selectors in your `mapStateToProps` and now you have a view with almost no formatting or logic in it.
 
+```
 function getMessagesNaive(state) {
   return get(state, 'messages', {})
 }
@@ -567,6 +593,7 @@ function mapStateToProps(state) {
     messages: getMessages(state),
   }
 }
+```
 
 If you want, you can use the `[reselect](https://github.com/reduxjs/reselect)` library to help compose selectors together. You don’t have to use this library, but I recommend at minimum reading its README to grasp the pattern. Once you have lots of selectors, the library will be more useful to you.
 
@@ -586,7 +613,7 @@ The “sometimes !” comment is that you want to name any boolean values positi
 
 I recommend grouping your selectors by route. So you’ll have a “base” file of selectors across routes. A selector file per route. And an “index” selector file that can combine selectors from the different routes.
 
-### Views: Pages, Containers, & Components
+## Views: Pages, Containers, & Components
 
 You’re now finally at the part of the application that uses React! If you’ve set up everything similarly so far, then this part is a breeze.
 
@@ -600,6 +627,7 @@ You can start with all your views in one, flat directory. As your project grows,
 
 Routes can consume any view. Containers can consume any containers and components. And components can only consume other components.
 
+```
 function Component(props) { return <div /> }
 
 
@@ -613,6 +641,7 @@ const mapStateToProps = state => ({})
 export default connect(mapStateToProps)(Route)
 // ... a higher-level file
 <Route path="/messages" component={Route} />
+```
 
 `react-redux` will come into play on containers and routes. You want to use `connect` and `mapStateToProps` to connect your state to your view. That keeps that stuff out of the view function itself. `[mapDispatchToProps](https://github.com/reduxjs/react-redux/blob/master/docs/api.md)` will help you bind your action creators to your store. In some places, I’ve also had to create a `mapPropsToProps` to keep my selectors, logic, and formatting out the view.
 
@@ -620,7 +649,7 @@ export default connect(mapStateToProps)(Route)
 
 I’ve been on projects that attempted to use form libraries with either only React or with both React and Redux. Unless your form is basic, I would recommend against using a specialized form library. Form libraries often add lots of overhead for little benefits. I would stick to how the authors of React suggest doing [**controlled component forms**](https://reactjs.org/docs/forms.html)**.** Wait to DRY up anything until you have a clear pattern of duplication.
 
-### Auxiliaries: Constants, Helpers, & Images
+## Auxiliaries: Constants, Helpers, & Images
 
 My projects have auxiliary directories in them: constants, helpers, and images. Sometimes there are more auxiliary directories too.
 
@@ -630,13 +659,15 @@ My projects have auxiliary directories in them: constants, helpers, and images. 
 
 For projects that need it, I’ll have a directory of **images**. Not much to say about images other than: _optimize your images_. You’ll get more performance improvement from optimizing images than anything else. Try using SVG, reducing the number of colors, and using [ImageOptim](https://imageoptim.com/mac). If you only have a small number of images that are vector-y, base64 encode them. This will save on the number of network requests. There’s plenty of articles about saving on size with images.
 
-### Tests
+## Tests
 
 I’ve used Jasmine, Mocha/Chai/Sinon, and Jest. There’s more similar than not. If you already have one, I wouldn’t switch. That said, for new projects I recommend **Jest**. It’s the easiest to set up and get started with, and has everything you need for unit testing built in.
 
 Jest’s killer feature is [**snapshot testing**](https://jestjs.io/docs/en/snapshot-testing). Instead of having to assert every value of an object, or JSX nodes, you can write:
 
+```
     expect(result).toMatchSnapshot()
+```
 
 The first time you run that test, it will make a snapshot of the result. If you run the test later and it isn’t the same, you’ll see where the two snapshots differ. If you want to update the snapshot, you can do so on the command line easily.
 
@@ -649,6 +680,7 @@ I can’t recommend using snapshot testing enough. In particular, here’s some 
 *   Most of your `selector/` tests can be a single line, if you use your test data and snapshot testing together.
 *   Most of your `view/` tests can also be a single line, if you use your test data and snapshot testing together. You can have one test for `mapStateToProps.` And another test for the view that combines it all together.
 
+```
 // Reducer test assertion
 expect(
   messagesReducer(allState.messages, addMessage(payload))
@@ -674,27 +706,32 @@ expect(mapStateToProps(allState)).toMatchSnapshot()
 expect(
   Messages(mapStateToProps(allState))
 ).toMatchSnapshot()
+```
 
 With simple functions, test data, and snapshot testing, your unit tests almost write themselves.
 
 For other tests, you’ll want to use Jest’s [**mock**](https://jestjs.io/docs/en/mock-functions) capability. If you aren’t familiar with how mock internals, I have a [video](https://www.youtube.com/watch?v=wUxmVL998FU) showing how they work. Jest’s system can handle about 90% of typical mocking needs. You can mock both individual functions and entire modules. Sometimes, the old school way works fine too:
 
+```
 test('updates correctly', () => {
   const prevLocation = window.location
   location = { href: '[https://example.com'](https://example.com%27) }
   expect(something).toBe(another)
   window.location = prevLocation
 })
+```
 
 One of the most frequent things to mock is [time](https://github.com/facebook/jest/issues/2234). Especially with snapshots, you want your tests to run deterministic.
 
 Another strategy I use is to use `call` and `apply` to override the `this` context. This strategy gets around lots of otherwise tricky test cases.
 
+```
 test('componentDidMount', () => {
   const myThis = {}
   const result = Component.prototype.componentDidMount.call(myThis)
   expect(result).toMatchSnapshot()
 })
+```
 
 Given snapshot testing, I’ve found getting to 100% unit test **coverage** very easy. If it were more difficult, I wouldn’t recommend 100% coverage for most projects. But in this combination, that goal is practical most of the time. If there’s ever a case you can’t cover, you can always put it in a file by itself and configure Jest to ignore that file.
 
@@ -706,13 +743,15 @@ You can do one of:
 
 I have a preference for 3. There’s twice as many files in each folder, but it’s easier to work with the files as you’re developing that way.
 
-### Wrap Up
+## Wrap Up
 
 I can’t cover everything needed to build a React/Redux project in one article. I’ve covered some of the patterns I’ve seen over the years. These are the ways I avoid the most common problems I’ve experienced. I haven’t covered to approach writing styles in this article. Or setting up the tooling required to support a production experience.
 
 _A personal note_: I hope one day the browsers have efficient DOM element updating built. Something like…
 
+```
     rootElement.updateNodes(newDetachedDomTree)
+```
 
 This would cut the need for many of the tools I mention in this article. When a library gets popular enough, the browsers later get a way to do the same thing natively. I hope that happens here too.
 
@@ -727,12 +766,6 @@ If you’d like to know more about [**Sagefy**](https://sagefy.org/), I have a [
 Thank you for taking the time out of your day to read this article. If you enjoyed this article, **clap** 👏 **below**. _Thanks!_
 
 * * *
-
-#### More where this came from
-
-This story is published in [Noteworthy](http://blog.usejournal.com), where thousands come every day to learn about the people & ideas shaping the products we love.
-
-Follow our publication to see more product & design stories featured by the [Journal](https://usejournal.com/?utm_source=usejournal.com&utm_medium=blog&utm_campaign=guest_post) team.
 
 By [Kevin Heis](https://medium.com/@heiskr) on [August 30, 2018](https://medium.com/p/eadb6a2c9ecb).
 

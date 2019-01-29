@@ -3,16 +3,9 @@ layout: post
 title: "Why I’m Building Sagefy"
 ---
 
-Why I’m Building Sagefy
-=======================
+# Why I’m Building Sagefy
 
-An open-content adaptive learning platform.
-
-* * *
-
-### Why I’m Building Sagefy
-
-#### An open-content adaptive learning platform.
+_An open-content adaptive learning platform._
 
 ![](https://cdn-images-1.medium.com/max/600/1*QsmOK5NHyJBFs5viVaYCPw.png)
 
@@ -20,7 +13,7 @@ Sagefy logo and homepage text
 
 I would like to share with you some things about a project I’ve been working on since early 2013.
 
-#### The challenge
+## The challenge
 
 **The greatest opportunity for technology is human learning.** By elevating ourselves, we can accelerate our progress and growth. I’m hoping [Sagefy](https://sagefy.org) shows a different way we can think about learning with technology.
 
@@ -30,7 +23,7 @@ Also, we want to make sure that the learner _isn’t restricted by topic_. Many 
 
 We have every reason to want every single person to pursue knowledge in the most time-and-effort efficient means possible. And we want to encourage each person to pursue their interests as deeply as possible.
 
-#### What Sagefy is
+## What Sagefy is
 
 [**Sagefy**](https://sagefy.org) **is an open-content adaptive learning system.**
 
@@ -62,7 +55,7 @@ _Sagefy is completely_ [_open-source_](https://github.com/heiskr/sagefy/) _and f
 
 The combination of _open-content_, _adaptive_, and _free_ positions Sagefy in a way no other learning technology is. This combination means Sagefy can reach a wide variety of learners, all while attempting to provide an in-depth and effective learning experience.
 
-#### How Sagefy works
+## How Sagefy works
 
 ![](https://cdn-images-1.medium.com/max/800/1*aZWxq_aGrXPXUG0v_e8DRw.png)
 
@@ -164,7 +157,7 @@ If you’re interested in getting into specific of what I’ve built so far and 
 
 * * *
 
-#### Sagefy’s ideas
+## Sagefy’s ideas
 
 After spending a few years reading of reading books and articles on educational research, I’ve come to the conclusion there are seven main ideas that come up repeatedly:
 
@@ -212,7 +205,7 @@ There’s not widespread dissent on any of these points, though there are some n
 
 * * *
 
-#### What makes Sagefy different
+## What makes Sagefy different
 
 In this section, I’ll talk about some of the existing learning systems and how Sagefy would compare to them.
 
@@ -256,7 +249,7 @@ A screenshot from Wikipedia, the largest open-content system that exists. [https
 
 * * *
 
-#### The backstory of Sagefy
+## The backstory of Sagefy
 
 Like most people, I considered the means of learning while attending school. As a technologist, I often considered how I would do things differently, or how to optimize the experience. For every wonderful, inspiring, enriching, and useful course I’ve taken over my life, there have been at least three or four that weren’t. During my time in graduate school, I also had the opportunity of getting to work on [educational websites for the University of Oregon](https://library.uoregon.edu/cmet).
 
@@ -288,7 +281,7 @@ I already knew how to build a web API and a web UI. So as I started [planning](h
 
 I realized after building the MVP that no one would understand what I built with no content. So the last few months, I’ve been building a small [course on Electronic Music,](https://sagefy.org/sets/CgDRJPfzJuTR916HdmosA3A8) the area of my masters. The first few units are live.
 
-#### The future of Sagefy
+## The future of Sagefy
 
 I realize, as much as anyone, that Sagefy _most likely won’t succeed_. I’m okay with that. There’s so many things that can go wrong, and more importantly, so many right things that may not happen. Lack of interest, difficulty gaining a user base, challenges with creating content, or improving the adaptive algorithms… there’s many challenges ahead. My biggest hope is that, even if Sagefy isn’t successful, that Sagefy may _inspire a conversation_ about learning in this technological era. Sagefy doesn’t have to be big or successful, but _some system_ does need to be successful. _The opportunity is too great to ignore._ For me, the best thing I can do is get some ideas out there about how to account for how people really learn in a learning system. Even if I fail, I can demonstrate that an alternative is both possible and realistic. Of course, if Sagefy does succeed, even better.
 

@@ -3,16 +3,9 @@ layout: post
 title: "What do you want to learn?"
 ---
 
-What do you want to learn?
-==========================
+# What do you want to learn?
 
-Why and how I built a community page for anyone to share what they want to learn.
-
-* * *
-
-### What do you want to learn?
-
-#### Why and how I built a community page for anyone to share what they want to learn.
+_Why and how I built a community page for anyone to share what they want to learn._
 
 ![](https://cdn-images-1.medium.com/max/600/1*g1-KE9Cd2Op1lV5J6rV1RQ.png)
 
@@ -22,11 +15,11 @@ A screenshot of the Suggest page.
 
 In this article, I’m going to go into the background about the Suggest page.
 
-### What is Sagefy
+## What is Sagefy
 
 **Sagefy is an open-content adaptive learning system.** _Open-content_ means anyone can create and update learning content, like Wikipedia. _Adaptive learning_ means the content changes based on the learner’s goal and their prior knowledge. The combination means anyone can learn almost anything, regardless of their prior knowledge. To learn more about Sagefy, check out this [3-minute overview video](https://youtu.be/gFn4Q9tx7Qs) or [in-depth article](https://stories.sagefy.org/why-im-building-sagefy-731eb0ceceea).
 
-### **How the Suggest page idea came about**
+## How the Suggest page idea came about
 
 So far, Sagefy is at [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) quality code-wise and I have a full [electronic music intro course](https://sagefy.org/subjects/CgDRJPfzJuTR916HdmosA3A8/landing) built out in Sagefy.
 
@@ -40,7 +33,7 @@ I picked the Suggest page experiment first because its had some of the lowest te
 
 The Suggest page may not even seem like a potential revenue source. Right now, _it isn’t_ creating revenue. If the Suggest page succeeds, the idea is to allow anyone to make a **bid** on the suggested courses, and let others **pledge** funds towards the bid. If the amount reaches the bid’s minimum, the content gets funded. Sagefy would take some small percentage of the funding to support Sagefy itself. I don’t need the bids or pledges to see if the idea will work. I need to know if people are _willing_ to suggest and up-vote ideas for free online learning content _in the first place_. There’s many sites that already do crowdfunding of course, but I’m not aware of any strictly related to funding free online learning content. And of course, the Suggest page is one idea.
 
-### How I built the page quickly
+## How I built the page quickly
 
 Because the Suggest page is an experiment, I did not build the page into the main Sagefy ecosystem. The Suggest page exists as its own Nginx route. In fact, **all the code is in** [**one file**](https://github.com/heiskr/sagefy/blob/master/suggest/index.py). There’s not even a framework; the only library is for the database. And of course there’s _no_ _automated tests_. I also did not write any JavaScript for the page. The whole thing is **plain old HTML** and barely any CSS. It’s about as bare bones as possible. You can build a surprising amount with this sort of setup, and get the experiment done very quickly.
 
@@ -48,7 +41,7 @@ Not doing things the “right” or “modern” way, I built the whole page in 
 
 If I built this page the “correct” way , this experiment would have taken 20 or more hours. Tests, frameworks, scaling, splitting off the API from the UI, and so on. _Coding things the “old” way means I can do more experiments with more frequency._ Its sort of fun to relive the glory days when feature expectations on the web were so much lower. If the Suggest page is successful, I’d want to update the approach to be more more feature-capable than plain old HTML.
 
-### The process for creating new experiments like this
+## The process for creating new experiments like this
 
 I still have several more ideas I’d like to try out to see if I can find a revenue model for Sagefy. If you’re going through this too, here’s what the **step-by-step process** looks like:
 
@@ -59,13 +52,13 @@ I still have several more ideas I’d like to try out to see if I can find a rev
 5.  Don’t show a blank page. Add some **real content** before you start to promote the experiment.
 6.  **Promote** the experiment. No one’s going to show up because you built it. Go to sites where the audience is _already browsing_, and share a link.
 
-### Going forward
+## Going forward
 
 So far the Suggest page got a bit of initial traffic, but the interest has waned since then. I’d guess about 100 people have either suggested an idea or up-voted one. I’m not ready to count this as an unsuccessful quite yet. With some promotion the Suggest page could have potential. I don’t have a ‘exit plan’ as there’s no costs involved, so the Suggest page is going to be around for the foreseeable future.
 
 I’m going to try some more experiments too. All while also continuing to improve Sagefy’s learning and contributing experiences. _So… keep your eyes open for improvements and more experiments too!_
 
-### Try out the Suggest page
+## Try out the Suggest page
 
 If you’ve made this far in the article, congrats! That, and **you should** [**try out the Suggest page**](https://sagefy.org/suggest)**.** No need to sign up for an account. You can up-vote existing ideas and add your own. _And let me know your feedback too!_
 

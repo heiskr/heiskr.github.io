@@ -3,16 +3,9 @@ layout: post
 title: "A Checklist to Make Your Own Learning Plan"
 ---
 
-A Checklist to Make Your Own Learning Plan
-==========================================
+# A Checklist to Make Your Own Learning Plan
 
-A research-backed checklist to learn anything you want
-
-* * *
-
-### A Checklist to Make Your Own Learning Plan
-
-#### A research-backed checklist to learn anything you want
+_A research-backed checklist to learn anything you want_
 
 I published my [**Eight Big Ideas of Learning**](https://sgef.cc/tldrideas) article (also [full version](https://sgef.cc/ideas)) about a month ago. The article attracted broad interest. Several people asked me how to act on those ideas.
 
@@ -22,7 +15,7 @@ _The numbers in brackets refer to the sections in the_ [_Ideas_](https://sgef.cc
 
 ![](https://cdn-images-1.medium.com/max/2560/1*7gUiveFL0rBnQZ7ryTREFA.jpeg)
 
-### Before you start learning the subject
+## Before you start learning the subject
 
 *   ☐ **Why** do you want to learn this subject? Think _autonomy_, _mastery_ and _purpose_. Write it down somewhere you will see regularly. \[7.1\]
 *   ☐ Learn the subject’s **organization**. [Draw it out.](https://en.wikipedia.org/wiki/Concept_map) You can try to find diagrams with Google image search, or use a Table of Contents from a popular book on the subject. \[4.1\]
@@ -37,7 +30,7 @@ _The numbers in brackets refer to the sections in the_ [_Ideas_](https://sgef.cc
 
 ![](https://cdn-images-1.medium.com/max/2560/1*9NRrRdQKcPOrv9aWa_7U6g.jpeg)
 
-### Before you start a learning session
+## Before you start a learning session
 
 *   ☐ Find a quiet, calm, and clean learning **environment**. Remove distractions. It won’t be perfect, and that’s okay. \[1.3\]
 *   ☐ Only learn **one** thing at a time. If you are thinking about trying more than one thing at a time, don’t. If the session feels too large, break it down into smaller parts. \[1.1/1.2\]
@@ -50,7 +43,7 @@ _The numbers in brackets refer to the sections in the_ [_Ideas_](https://sgef.cc
 
 ![](https://cdn-images-1.medium.com/max/2560/1*Rvjcxx16hFKlUiplj-BZOQ.jpeg)
 
-### While you learn
+## While you learn
 
 *   ☐ Tie back _details_ with the **main ideas**. \[4.2\]
 *   ☐ As you learn, **connect** what you are learning to what you _already know_. \[3.3\]
@@ -63,7 +56,7 @@ _The numbers in brackets refer to the sections in the_ [_Ideas_](https://sgef.cc
 
 ![](https://cdn-images-1.medium.com/max/2560/1*PZJ4oGG0CfW_Ggj_DbDZlQ.jpeg)
 
-### To review weekly
+## To review weekly
 
 *   ☐ Revisit your reason for **why** you want to learn this subject. \[7.1\]
 *   ☐ Update your model of the **organization** of subject and your **progress** tracking. \[4.1/2.3\]
@@ -77,7 +70,7 @@ _The numbers in brackets refer to the sections in the_ [_Ideas_](https://sgef.cc
 *   ☐ Am I getting enough _practice_ time? Am I _spacing_ my practice? \[6.1/6.4\]
 *   ☐ Am I getting effective _feedback_? I am building _trust_ with my expert/peer? \[8.1/8.2\]
 
-### **Wrap Up**
+## **Wrap Up**
 
 _Learning is hard_, and learning alone can be difficult. It can be difficult to stay motivated and keep going towards your goal. If you follow some of the ideas on this list, you can learn more easily, more deeply, and more quickly.
 
