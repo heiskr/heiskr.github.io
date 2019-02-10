@@ -47,3 +47,10 @@ My Most Popular YouTube Videos
 [github]: https://github.com/heiskr
 [twitter]: https://twitter.com/heiskr
 [youtube]: https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ
+
+Artsy
+-----
+
+- [Recollecting Improv](https://vimeo.com/6540364) -- May 2009
+- [Visual Analysis Improv](https://vimeo.com/6651766) -- March 2009
+- [Muziko Kreito Universo](https://vimeo.com/11514953) -- May 2010
