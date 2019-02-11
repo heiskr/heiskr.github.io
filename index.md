@@ -7,7 +7,7 @@ layout: default
 Kevin Heis
 ==========
 
-**Web geek and musician . Building [Sagefy][sagefy]. In Beaverton, Oregon.**
+**Web geek and musician. Building [Sagefy][sagefy]. In Beaverton, Oregon.**
 
 [Medium][medium] — [GitHub][github] — [Twitter][twitter] — [YouTube][youtube]
 
