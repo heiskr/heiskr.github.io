@@ -9,7 +9,7 @@ Kevin Heis
 
 **Web geek and musician. Building [Sagefy][sagefy]. In Beaverton, Oregon.**
 
-[Medium][medium] — [GitHub][github] — [Twitter][twitter] — [YouTube][youtube]
+[Medium][medium] • [GitHub][github] • [Twitter][twitter] • [YouTube][youtube]
 
 Current Activities
 ------------------
@@ -51,6 +51,6 @@ My Most Popular YouTube Videos
 Artsy
 -----
 
-- [Recollecting Improv](https://vimeo.com/6540364) — May 2009
-- [Visual Analysis Improv](https://vimeo.com/6651766) — March 2009
-- [Muziko Kreito Universo](https://vimeo.com/11514953) — May 2010
+- [Recollecting Improv](https://vimeo.com/6540364) • May 2009
+- [Visual Analysis Improv](https://vimeo.com/6651766) • March 2009
+- [Muziko Kreito Universo](https://vimeo.com/11514953) • May 2010
