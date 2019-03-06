@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<style>ul{list-style:none;padding-left:0}</style>
+
 <img src="https://avatars3.githubusercontent.com/u/1221423?s=400&v=4" alt="portrait" width="200" />
 
 Kevin Heis
