@@ -32,7 +32,7 @@ My Most Popular Articles
 - [Why I'm Building Sagefy](https://docs.sagefy.org/stories/why-i-m-building-sagefy)
 - [How I Write React/Redux Projects in 2018](https://docs.sagefy.org/stories/how-i-write-react-redux-projects-in-2018)
 - [Interviewing Prospective Users](https://docs.sagefy.org/stories/interviewing-prospective-users)
-- [...see my other articles][https://docs.sagefy.org/stories]
+- [...see my other articles](https://docs.sagefy.org/stories)
 
 My Most Popular YouTube Videos
 ---------------------------
