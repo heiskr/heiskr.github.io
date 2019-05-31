@@ -24,7 +24,7 @@ Current Activities
 - Drinking way too much tea.
 - Hiking, occasionally.
 
-My Most Popular Medium Articles
+My Most Popular Articles
 ----------------------------
 
 - [Eight Big Ideas of Learning [TL;DR Edition]](https://docs.sagefy.org/stories/eight-big-ideas-of-learning-tl-dr-edition)
@@ -51,7 +51,6 @@ Artsy
 - [Muziko Kreito Universo](https://vimeo.com/11514953) • May 2010
 
 [sagefy]: https://sagefy.org
-[medium]: https://medium.com/@heiskr
 [github]: https://github.com/heiskr
 [twitter]: https://twitter.com/heiskr
 [youtube]: https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ
