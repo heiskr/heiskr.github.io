@@ -9,7 +9,7 @@ Kevin Heis
 
 **Web geek and musician. Building [Sagefy][sagefy]. In Beaverton, Oregon.**
 
-[Medium][medium] • [GitHub][github] • [Twitter][twitter] • [YouTube][youtube]
+[GitHub][github] • [Twitter][twitter] • [YouTube][youtube]
 
 Current Activities
 ------------------
@@ -27,12 +27,12 @@ Current Activities
 My Most Popular Medium Articles
 ----------------------------
 
-- [Eight Big Ideas of Learning [TL;DR Edition]](https://sgef.cc/tldrideas)
-  - also [Full Version](https://sgef.cc/ideas) and [Checklist Format](https://sgef.cc/checklist)
-- [Why I'm Building Sagefy](https://sgef.cc/story)
-- [How I Write React/Redux Projects in 2018](https://medium.com/@heiskr/eadb6a2c9ecb)
-- [Interviewing Prospective Users](https://medium.com/@heiskr/20845150dd9f)
-- [...see my other Medium articles][medium]
+- [Eight Big Ideas of Learning [TL;DR Edition]](https://docs.sagefy.org/stories/eight-big-ideas-of-learning-tl-dr-edition)
+  - also [Full Version](https://docs.sagefy.org/stories/eight-big-ideas-of-learning) and [Checklist Format](https://docs.sagefy.org/stories/a-checklist-to-make-your-own-learning-plan)
+- [Why I'm Building Sagefy](https://docs.sagefy.org/stories/why-i-m-building-sagefy)
+- [How I Write React/Redux Projects in 2018](https://docs.sagefy.org/stories/how-i-write-react-redux-projects-in-2018)
+- [Interviewing Prospective Users](https://docs.sagefy.org/stories/interviewing-prospective-users)
+- [...see my other articles][https://docs.sagefy.org/stories]
 
 My Most Popular YouTube Videos
 ---------------------------
