@@ -3,3 +3,4 @@ encoding: utf-8
 permalink: /stories/:title
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
