@@ -1,0 +1,34 @@
+---
+layout: default
+title: Stories
+---
+
+<header>
+  <h1>Stories</h1>
+</header>
+
+<ul class="ls-n">
+  {% for post in site.posts %}
+  <li class="my-c">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p><em>{{ post.description }}</em></p>
+    <p>
+      <small
+        >by Kevin Heis &bull;
+        <time datetime="{{ post.date | date: '%Y-%m-%d' }}"
+          >{{ post.date | date: "%Y %b %d" }}</time
+        ></small
+      >
+    </p>
+  </li>
+  {% endfor %}
+</ul>
+
+<footer>
+  <hr />
+  <small>
+    <p>
+      &copy; Copyright Kevin Heis {{ 'now' | date: "%Y" }}.
+    </p>
+  </small>
+</footer>

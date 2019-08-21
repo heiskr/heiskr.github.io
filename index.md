@@ -27,12 +27,12 @@ Current Activities
 My Most Popular Articles
 ----------------------------
 
-- [Eight Big Ideas of Learning [TL;DR Edition]](https://docs.sagefy.org/stories/eight-big-ideas-of-learning-tl-dr-edition)
-  - also [Full Version](https://docs.sagefy.org/stories/eight-big-ideas-of-learning) and [Checklist Format](https://docs.sagefy.org/stories/a-checklist-to-make-your-own-learning-plan)
-- [Why I'm Building Sagefy](https://docs.sagefy.org/stories/why-i-m-building-sagefy)
-- [How I Write React/Redux Projects in 2018](https://docs.sagefy.org/stories/how-i-write-react-redux-projects-in-2018)
-- [Interviewing Prospective Users](https://docs.sagefy.org/stories/interviewing-prospective-users)
-- [...see my other articles](https://docs.sagefy.org/stories)
+- [Eight Big Ideas of Learning [TL;DR Edition]](/stories/eight-big-ideas-of-learning-tl-dr-edition)
+  - also [Full Version](/stories/eight-big-ideas-of-learning) and [Checklist Format](/stories/a-checklist-to-make-your-own-learning-plan)
+- [Why I'm Building Sagefy](/stories/why-i-m-building-sagefy)
+- [How I Write React/Redux Projects in 2018](/stories/how-i-write-react-redux-projects-in-2018)
+- [Interviewing Prospective Users](/stories/interviewing-prospective-users)
+- [...see my other articles](/stories)
 
 My Most Popular YouTube Videos
 ---------------------------
