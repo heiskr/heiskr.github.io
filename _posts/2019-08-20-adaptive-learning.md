@@ -5,6 +5,8 @@ description: 'The four elements of adaptive learning systems.'
 image: /images/adaptive-1.jpg
 ---
 
+Have you ever started a course, but thought it was too slow? Or too difficult? Wish you could make it go faster? Felt like you didn't get enough practice to master the content? Adaptive learning systems seek to address these challenges.
+
 In this article, I'll go over what adaptive learning systems are. I cover some background on why adaptive learning systems have the structure they do. I'll introduce a few adaptive learning systems. Then, I talk about the four elements. And how you can architect an adaptive learning system. We'll wrap up with evaluating the pros and cons of adaptive learning.
 
 ## What is an adaptive learning system?
