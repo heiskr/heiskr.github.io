@@ -88,6 +88,8 @@ Usually, a team of experts will define the scope of learning outcomes. Each node
 - A short description, which indicates which skills are under test and what is outside the scope
 - A list of prerequisite nodes -- these form the "edges" of the graph. These prerequisites cannot form a "cycle" -- a loop of nodes.
 
+![](/images/adaptive-x.jpg)
+
 Expert models perform better when each node is small and narrowly defined. For example, each skill in Bloom's taxonomy -- recognition, understanding, application, analysis, synthesis, and evaluation -- could each be its own node in the expert model. The combination of two underlying skills should also be a separate node.
 
 There is an endless number of formats you could use to create an expert model, such as XML, JSON, CSV, or YAML. It can help to be able to display the expert model graphically for review.
