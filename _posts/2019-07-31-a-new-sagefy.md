@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'A New Sagefy'
+title: 'A new Sagefy'
 description: 'What Sagefy is, where it was, and why and how I changed Sagefy.'
 image: /images/new-1.jpg
 ---

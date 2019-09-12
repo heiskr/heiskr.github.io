@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Building a Course for Sagefy'
+title: 'Building a course for Sagefy'
 description: 'My experience so far building “An Introduction to Electronic Music”.'
 image: /images/build-1.png
 ---

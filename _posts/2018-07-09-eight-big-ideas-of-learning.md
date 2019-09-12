@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Eight Big Ideas of Learning'
+title: 'Eight big ideas of learning'
 description: 'Research-backed strategies for better learning.'
 image: /images/big-1.png
 ---

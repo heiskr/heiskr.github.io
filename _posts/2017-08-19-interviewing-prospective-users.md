@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Interviewing Prospective Users'
+title: 'Interviewing prospective users'
 description: 'Starting a new project? Begin by interviewing prospective users.'
 image: /images/interview-1.png
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'The Mathematics of Sagefy'
+title: 'The mathematics of Sagefy'
 description: 'How Sagefy adapts to you, and where it can go.'
 image: /images/math-1.png
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Why I’m Building Sagefy'
+title: 'Why I’m building Sagefy'
 description: 'I would like to share with you some things about a project I’ve been working on since early 2013.'
 image: /images/why-1.png
 ---

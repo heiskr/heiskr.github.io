@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'How I Write React/Redux Projects in 2018'
+title: 'How I write React/Redux projects in 2018'
 description: 'This article documents the strategies I use when building browser projects in React/Redux.'
 image: /images/react-1.jpeg
 ---

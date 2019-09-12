@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'A Checklist to Make Your Own Learning Plan'
+title: 'A checklist to make your own learning plan'
 description: 'A research-backed checklist to learn anything you want.'
 image: /images/chk-1.jpeg
 ---
