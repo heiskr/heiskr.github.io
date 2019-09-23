@@ -754,4 +754,7 @@ _To reiterate_: Take what’s relevant to you and ignore the rest. Every project
 
 **Thanks for reading.** _Feedback is welcome!_
 
-You can visit my side project [**Sagefy**](https://sagefy.org/)**.**
+- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
+- Sign up for [updates](https://sgfy.xyz/updates).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

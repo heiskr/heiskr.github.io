@@ -373,6 +373,9 @@ As you can see, this is just the beginning. Sagefy is right now the seed of what
 - When should the learner take a break?
 - How valid or accurate is the content?
 
-**If you find this interesting, come join in! Reach out on** [**Twitter**](https://twitter.com/sagefyorg)**.** Thank you!
+For more on Sagefy:
 
-If you’d like to know more about Sagefy, [visit today](https://sagefy.org).
+- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
+- Sign up for [updates](https://sgfy.xyz/updates).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

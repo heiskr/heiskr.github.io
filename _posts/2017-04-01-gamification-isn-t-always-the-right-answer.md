@@ -39,4 +39,7 @@ In my mind, adding some gamified elements can be fun. **The most important thing
 
 Sagefy is currently minimal. But it will grow in features. The question for me with motivation will remain. _Does this feature support the learner’s intrinsic motivation? Or does is distract?_ If it doesn’t pass that test, I can’t support it.
 
-If you’d like to know more about Sagefy, [visit today](https://sagefy.org).
+- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
+- Sign up for [updates](https://sgfy.xyz/updates).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

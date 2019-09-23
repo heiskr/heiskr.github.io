@@ -72,4 +72,7 @@ _Learning is hard_, and learning alone can be difficult. It can be difficult to 
 
 See the [full article]({% post_url 2018-07-09-eight-big-ideas-of-learning %}) for more resources. **Thanks for reading**! _Feedback is welcome._
 
-If you’d like to know more about Sagefy, [visit today](https://sagefy.org).
+- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
+- Sign up for [updates](https://sgfy.xyz/updates).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

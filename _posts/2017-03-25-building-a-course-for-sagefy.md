@@ -63,4 +63,7 @@ The only way to get Sagefy going is to recruit other people to take a chance and
 
 Worst case scenario, you’ll end up with some great YouTube videos and a story to tell.
 
-If you’d like to know more about Sagefy, [visit today](https://sagefy.org).
+- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
+- Sign up for [updates](https://sgfy.xyz/updates).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

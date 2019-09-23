@@ -126,4 +126,7 @@ When you’re first making an open source project, choosing a license can be _ov
 
 _Any license you choose_, open source software is changing the world faster than anything else. **Come on in!**
 
-If you’d like to know more about Sagefy, [visit today](https://sagefy.org).
+- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
+- Sign up for [updates](https://sgfy.xyz/updates).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

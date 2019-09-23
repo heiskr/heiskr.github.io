@@ -197,4 +197,7 @@ I realize, as much as anyone, that Sagefy _most likely won’t succeed_. I’m o
 
 I foresee a time too where some organizations, like schools, corporations, non-profits, and governments, would want to run their own instances of Sagefy for educational or training purposes. My current financial vision is Sagefy would be _donation supported_ for the public facing instance, and that support services would be available for private installations.
 
-If you’d like to know more about Sagefy, [visit today](https://sagefy.org).
+- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
+- Sign up for [updates](https://sgfy.xyz/updates).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

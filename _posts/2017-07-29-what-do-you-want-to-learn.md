@@ -56,4 +56,7 @@ I’m going to try some more experiments too. All while also continuing to impro
 
 If you’ve made this far in the article, congrats! That, and **you should try out the Suggest page.** No need to sign up for an account. You can up-vote existing ideas and add your own. _And let me know your feedback too!_
 
-If you’d like to know more about Sagefy, [visit today](https://sagefy.org).
+- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
+- Sign up for [updates](https://sgfy.xyz/updates).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

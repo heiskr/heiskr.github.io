@@ -313,4 +313,9 @@ _Update_: Wondering how to act on these ideas? Check out my “[Checklist” art
 - [Kaplan Checklist](http://kaplan.com/wp-content/uploads/2016/01/Kaplan-Way_Checklist_Summary_Sheet.pdf)
 - [Pearson Learning Design Principles](https://learningdesignprinciples.com/)
 
-If you’d like to know more about Sagefy, [visit today](https://sagefy.org).
+For more on Sagefy:
+
+- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
+- Sign up for [updates](https://sgfy.xyz/updates).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

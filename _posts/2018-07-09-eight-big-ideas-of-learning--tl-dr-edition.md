@@ -177,4 +177,7 @@ _Update_: Wondering how to act on these ideas? Check out my “[Checklist” art
 
 **Thanks for reading!** Feedback on this article is welcome. Let me know by writing a response! Check out the [full article]({% post_url 2018-07-09-eight-big-ideas-of-learning %}) for more resources too.
 
-If you’d like to know more about Sagefy, [visit today](https://sagefy.org).
+- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
+- Sign up for [updates](https://sgfy.xyz/updates).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

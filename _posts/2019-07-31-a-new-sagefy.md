@@ -165,10 +165,7 @@ If I were to do it again, I would do even more usability testing and feedback ro
 
 I have no idea :) Now seems like a good time to pull back a little on the project. Observe how it does in the wild for a few weeks. After that, I'm going to go back to usability testing and interviews. And look over traffic data. This will help me to find out where the next biggest opportunities are. Sagefy is far from perfect for sure. The content could be much better, and the code could use some refactoring and automated tests. But I know when those new opportunities come, its going to be much easier and faster to change. And hopefully I won't need another rewrite for a long time :)
 
-Obligatory end-of-article call-to-action:
-
 - [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- For more information, [watch this 3 minute YouTube video](https://youtu.be/Gi99QbiSuWs) or [read the docs](https://docs.sagefy.org).
-- Want to help? [Check out our "Want to Help?" doc.](https://docs.sagefy.org/want-to-help)
+- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
 - Sign up for [updates](https://sgfy.xyz/updates).
-- Reach out to Sagefy on [Twitter](https://twitter.com/sagefyorg).
+- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).
