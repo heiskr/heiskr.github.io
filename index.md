@@ -2,9 +2,8 @@
 layout: default
 ---
 
-<img src="https://avatars3.githubusercontent.com/u/1221423?s=400&v=4" alt="portrait" width="200" />
-
 <header class="my-c">
+  <img src="https://avatars3.githubusercontent.com/u/1221423?s=400&v=4" alt="portrait" width="200" />
   <h1>Kevin Heis</h1>
   <p><em>Web geek and musician. Building <a href="https://sagefy.org">Sagefy</a>. In Beaverton, Oregon.</em></p>
 </header>
