@@ -5,7 +5,7 @@ layout: default
 <header class="my-c">
   <img src="https://avatars3.githubusercontent.com/u/1221423?s=400&v=4" alt="portrait" width="200" />
   <h1>Kevin Heis</h1>
-  <p><em>Web geek and musician. Building <a href="https://sagefy.org">Sagefy</a>. In Beaverton, Oregon.</em></p>
+  <p><em>Web engineer and musician. Building <a href="https://sagefy.org">Sagefy</a>. In Beaverton, Oregon.</em></p>
   <p><a href="https://github.com/heiskr">GitHub</a> &bull; <a href="https://twitter.com/heiskr">Twitter</a> &bull; <a href="https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ">YouTube</a></p>
 </header>
 
