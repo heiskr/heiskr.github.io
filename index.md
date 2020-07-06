@@ -12,7 +12,7 @@ layout: default
 Current Activities
 ------------------
 
-- Working for [GitHub](https://www.github.com) on [GitHub Learning Lab](https://lab.github.com/).
+- Working for [GitHub](https://www.github.com).
 - Building [Sagefy](https://sagefy.org/), an open-content adaptive learning platform.
 - Dreaming of my next interactive music project.
 - Usually an online course, or a book—on programming, interface design, electronic music, or learning psychology.
