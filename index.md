@@ -3,24 +3,18 @@ layout: default
 ---
 
 <header class="my-c">
-  <img src="https://avatars3.githubusercontent.com/u/1221423?s=400&v=4" alt="portrait" width="200" />
-  <h1>Kevin Heis</h1>
-  <p><em>Web engineer and musician. Building <a href="https://sagefy.org">Sagefy</a>. In Beaverton, Oregon.</em></p>
-  <p><a href="https://github.com/heiskr">GitHub</a> &bull; <a href="https://twitter.com/heiskr">Twitter</a> &bull; <a href="https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ">YouTube</a></p>
+  
+<img src="https://avatars3.githubusercontent.com/u/1221423?s=400&v=4" alt="portrait" width="200" />
+
+<h1>Kevin Heis</h1>
+  
+Hello :wave:
+
+I work for GitHub as a web engineer. I'm building [Sagefy](https://sagefy.org). I have two Havanese, Haku and Yuri. I play keyboard instruments, play with electronic music, meditate daily, drink too much tea, and love hiking. And I love reading about learning science.
+
+<p><a href="https://github.com/heiskr">GitHub</a> &bull; <a href="https://twitter.com/heiskr">Twitter</a> &bull; <a href="https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ">YouTube</a></p>
+
 </header>
-
-Current Activities
-------------------
-
-- Working for [GitHub](https://www.github.com).
-- Building [Sagefy](https://sagefy.org/), an open-content adaptive learning platform.
-- Dreaming of my next interactive music project.
-- Usually an online course, or a book—on programming, interface design, electronic music, or learning psychology.
-- Clowning with two Havanese.
-- Playing piano & synth, poorly.
-- Doing yoga & meditating, distractedly.
-- Drinking way too much tea.
-- Hiking, occasionally.
 
 My Most Popular Articles
 ----------------------------
