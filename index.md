@@ -8,9 +8,9 @@ layout: default
 
 <h1>Kevin Heis</h1>
   
-Hello :wave:
+<p>Hello 👋</p>
 
-I work for GitHub as a web engineer. I'm building [Sagefy](https://sagefy.org). I have two Havanese, Haku and Yuri. I play keyboard instruments, play with electronic music, meditate daily, drink too much tea, and love hiking. And I love reading about learning science.
+<p>I work for GitHub as a web engineer. I'm building <a href="https://sagefy.org">Sagefy</a>. I have two Havanese, Haku and Yuri. I play keyboard instruments, play with electronic music, meditate daily, drink too much tea, and love hiking. And I love reading about learning science.</p>
 
 <p><a href="https://github.com/heiskr">GitHub</a> &bull; <a href="https://twitter.com/heiskr">Twitter</a> &bull; <a href="https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ">YouTube</a></p>
 
