@@ -7,8 +7,6 @@ layout: default
 <img src="https://avatars3.githubusercontent.com/u/1221423?s=400&v=4" alt="portrait" width="200" />
 
 <h1>Kevin Heis</h1>
-  
-<p>Hello 👋</p>
 
 <p>I work for GitHub as a web engineer. I'm building <a href="https://sagefy.org">Sagefy</a>. I have two Havanese, Haku and Yuri. I play keyboard instruments, play with electronic music, meditate daily, drink too much tea, and love hiking. And I love reading about learning science.</p>
 
