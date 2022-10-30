@@ -10,7 +10,7 @@ layout: default
 
 <p>I work for GitHub as a web engineer. My partner Ka`imi is a psychiatric nurse practitioner student. We have a Havanese, Yuri. I play keyboard instruments, play with electronic music and jazz, meditate daily, drink too much tea, and love hiking. I like statistics and learning science.</p>
 
-<p><a href="https://github.com/heiskr">GitHub</a> &bull; <a href="https://twitter.com/heiskr">Twitter</a> &bull; <a href="https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ">YouTube</a></p>
+<p><a href="https://github.com/heiskr">GitHub</a></p>
 
 </header>
 
@@ -42,5 +42,3 @@ Artsy
 
 [sagefy]: https://sagefy.org
 [github]: https://github.com/heiskr
-[twitter]: https://twitter.com/heiskr
-[youtube]: https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ
