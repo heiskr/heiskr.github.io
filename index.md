@@ -42,3 +42,4 @@ Artsy
 
 [sagefy]: https://sagefy.org
 [github]: https://github.com/heiskr
+[youtube]: https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ
