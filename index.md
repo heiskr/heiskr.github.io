@@ -14,8 +14,8 @@ layout: default
 
 </header>
 
-My Most Popular Articles
-----------------------------
+<details>
+<summary>My Most Popular Articles</summary>
 
 - [Eight Big Ideas of Learning [TL;DR Edition]](/stories/eight-big-ideas-of-learning-tl-dr-edition)
   - also [Full Version](/stories/eight-big-ideas-of-learning) and [Checklist Format](/stories/a-checklist-to-make-your-own-learning-plan)
@@ -23,9 +23,10 @@ My Most Popular Articles
 - [How I Write React/Redux Projects in 2018](/stories/how-i-write-react-redux-projects-in-2018)
 - [Interviewing Prospective Users](/stories/interviewing-prospective-users)
 - [...see my other articles](/stories)
-
-My Most Popular YouTube Videos
----------------------------
+  
+</details>
+<details>
+<summary>My Most Popular YouTube Videos</summary>
 
 - [Let's Build a Virtual DOM from Scratch](https://youtu.be/l2Tu0NqH0qU)
 - [Let's Write a Redux from Scratch](https://youtu.be/j9Z86CLg9YY)
@@ -33,12 +34,15 @@ My Most Popular YouTube Videos
 - [How JavaScript Spies and Stubs Work](https://youtu.be/wUxmVL998FU)
 - [...see my other YouTube videos][youtube]
 
-Artsy
------
+</details>
+<details>
+<summary>Artsy</summary>
 
 - [Recollecting Improv](https://vimeo.com/6540364) • May 2009
 - [Visual Analysis Improv](https://vimeo.com/6651766) • March 2009
 - [Muziko Kreito Universo](https://vimeo.com/11514953) • May 2010
+
+</details>  
 
 [sagefy]: https://sagefy.org
 [github]: https://github.com/heiskr
