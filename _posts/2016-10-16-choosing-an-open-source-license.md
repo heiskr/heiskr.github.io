@@ -125,8 +125,3 @@ Sagefy will most likely stay with Apache 2. If there were to make any change at 
 When you’re first making an open source project, choosing a license can be _overwhelming_. Decide if copyleft is the right decision for your project. If you do want _copyleft_, you need to decide how strong you want the copyleft. If you don’t want copyleft, you can choose between: a _simple_ permissive license, or an _aware_ permissive license.
 
 _Any license you choose_, open source software is changing the world faster than anything else. **Come on in!**
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

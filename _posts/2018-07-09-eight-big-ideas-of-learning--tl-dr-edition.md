@@ -9,8 +9,6 @@ This article is a summary of [another article]({% post_url 2018-07-09-eight-big-
 
 One of my favorite subjects is **learning how to learn**. I’ve read and studied on learning science for many years. That said, I’m no expert — enjoy this outsider’s take on the literature. In this article, I sum up what I’ve learned about learning in eight points. **If you’re a learner too**, _this article is for you_.
 
-_If my background interests you:_ [**Sagefy**](https://sagefy.org) is the project I’m building on these ideas.
-
 ![](/images/eight-2.jpeg)
 
 ## Idea 1: Do One Thing at a Time
@@ -176,8 +174,3 @@ Think about ways to create an **environment** where these ideas can flourish. [_
 _Update_: Wondering how to act on these ideas? Check out my “[Checklist” article]({% post_url 2018-08-27-a-checklist-to-make-your-own-learning-plan %})!
 
 **Thanks for reading!** Feedback on this article is welcome. Let me know by writing a response! Check out the [full article]({% post_url 2018-07-09-eight-big-ideas-of-learning %}) for more resources too.
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

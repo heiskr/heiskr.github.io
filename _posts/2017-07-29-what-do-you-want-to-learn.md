@@ -5,6 +5,8 @@ description: 'Why and how I built a community page for anyone to share what they
 image: /images/what-1.png
 ---
 
+_Note: Sagefy was shut down in 2025._
+
 **The Suggest page on** [**Sagefy**](https://sagefy.org/) **allows you to suggest new free online learning subjects.** And you can up-vote subjects that interest you. And you _don’t_ need to sign up for an account! Why use the Suggest page? Maybe you can’t find something you’re looking for. Maybe you’re thinking about building something but want to see what the interest level is first. Or you’re looking for a different approach to something that already exists.
 
 In this article, I’m going to go into the background about the Suggest page.
@@ -55,8 +57,3 @@ I’m going to try some more experiments too. All while also continuing to impro
 ## Try out the Suggest page
 
 If you’ve made this far in the article, congrats! That, and **you should try out the Suggest page.** No need to sign up for an account. You can up-vote existing ideas and add your own. _And let me know your feedback too!_
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

@@ -163,8 +163,3 @@ Adaptive systems do particularly well with instant feedback and ensuring skill m
 ## Wrap up
 
 Welp, I've nerded out now. I've covered what adaptive learning systems are. I've provided some context for the design of these systems. A touch of history. I've covered the four major elements: the expert, the learner, the tutor, and the interface. Hopefully it wasn't too technical.
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

@@ -5,6 +5,8 @@ description: 'My experience so far building “An Introduction to Electronic Mus
 image: /images/build-1.png
 ---
 
+_Note: Sagefy was shut down in 2025._
+
 In this article, I’m going to talk about my journey on building out a course for Sagefy. That includes how I picked a topic, how I organized the course, and what I’ve learned so far. _The course is still very much in progress._
 
 **Update On July 3 2017**: The course now covers all the mentioned topics with videos and multiple choice questions. [Check it out!](https://sagefy.org/subjects/JAFGYFWhILcsiByyH2O9frcU/landing)
@@ -62,8 +64,3 @@ The only way to get Sagefy going is to recruit other people to take a chance and
 **If this sounds like a fun adventure to you, _shout me out on_** [**_Twitter_**](http://twitter.org/sagefyorg)**_._**
 
 Worst case scenario, you’ll end up with some great YouTube videos and a story to tell.
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

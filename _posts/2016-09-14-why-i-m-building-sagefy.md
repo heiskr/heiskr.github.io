@@ -5,6 +5,8 @@ description: 'I would like to share with you some things about a project I’ve 
 image: /images/why-1.png
 ---
 
+_Note: Sagefy was shut down in 2025._
+
 ## The challenge
 
 **The greatest opportunity for technology is human learning.** By elevating ourselves, we can accelerate our progress and growth. I’m hoping [Sagefy](https://sagefy.org) shows a different way we can think about learning with technology.
@@ -196,8 +198,3 @@ I realize, as much as anyone, that Sagefy _most likely won’t succeed_. I’m o
 **I hope that someday, Sagefy will become a place where anyone can come to learn anything, regardless of what they already know.** And then, be able to achieve their learning goal as quickly as possible. Whether its something small, or an entire degree program, Sagefy will have all the information available in a format realistic with how people learn. I realize some subjects we can only teach in person, but there’s so many subjects that _we could_ teach online that we don’t currently.
 
 I foresee a time too where some organizations, like schools, corporations, non-profits, and governments, would want to run their own instances of Sagefy for educational or training purposes. My current financial vision is Sagefy would be _donation supported_ for the public facing instance, and that support services would be available for private installations.
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

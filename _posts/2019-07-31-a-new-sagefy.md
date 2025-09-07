@@ -5,6 +5,8 @@ description: 'What Sagefy is, where it was, and why and how I changed Sagefy.'
 image: /images/new-1.jpg
 ---
 
+_Note: Sagefy was shut down in 2025._
+
 In this post, I'm going to talk about what Sagefy is. Where Sagefy was in October last year. And why and how I changed Sagefy in the time since. I wanted to share how this big change went down. And document the changes for my future self.
 
 ## What is Sagefy
@@ -164,8 +166,3 @@ If I were to do it again, I would do even more usability testing and feedback ro
 ## Where Sagefy will go from here
 
 I have no idea :) Now seems like a good time to pull back a little on the project. Observe how it does in the wild for a few weeks. After that, I'm going to go back to usability testing and interviews. And look over traffic data. This will help me to find out where the next biggest opportunities are. Sagefy is far from perfect for sure. The content could be much better, and the code could use some refactoring and automated tests. But I know when those new opportunities come, its going to be much easier and faster to change. And hopefully I won't need another rewrite for a long time :)
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

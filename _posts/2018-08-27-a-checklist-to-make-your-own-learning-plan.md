@@ -71,8 +71,3 @@ _The numbers in brackets refer to the sections in the_ [_Ideas_]({% post_url 201
 _Learning is hard_, and learning alone can be difficult. It can be difficult to stay motivated and keep going towards your goal. If you follow some of the ideas on this list, you can learn more easily, more deeply, and more quickly.
 
 See the [full article]({% post_url 2018-07-09-eight-big-ideas-of-learning %}) for more resources. **Thanks for reading**! _Feedback is welcome._
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

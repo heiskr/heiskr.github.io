@@ -1,19 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>{{ page.title }} — Kevin Heis</title>
     <meta name="description" content="{{ page.description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://heiskr.com/drab.css/css/drab.min.css">
-    <link rel="stylesheet" href="https://heiskr.com/drabutil.css/css/drabutil.css">
+    <link
+      rel="stylesheet"
+      href="https://heiskr.com/drab.css/css/drab.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://heiskr.com/drabutil.css/css/drabutil.css"
+    />
     <link rel="icon" href="/favicon.ico" />
   </head>
   <body itemscope itemtype="http://schema.org/BlogPosting">
-    <header>
-      <h1 class="mb-0" itemprop="headline">{{ page.title }}</h1>
-      <p class="mt-0 mb-0" itemprop="description"><em>{{ page.description }}</em></p>
-      <p class="mt-0">
+    <header class="container">
+      <h1 itemprop="headline">{{ page.title }}</h1>
+      <p itemprop="description"><em>{{ page.description }}</em></p>
+      <p>
         <small>
           by
           <span itemprop="author" itemscope itemtype="https://schema.org/Person"
@@ -38,9 +44,7 @@
       <img src="{{ page.image }}" itemprop="image" alt="headline" />
     </section>
 
-    <div itemprop="articleBody">
-      {{ content }}
-    </div>
+    <div itemprop="articleBody">{{ content }}</div>
 
     <section>
       <hr />
@@ -58,11 +62,9 @@
     <footer>
       <hr />
       <small>
-        <ul class="ls-n pl-0">
-          <li class="d-ib mr-2r"><a href="/stories">All stories</a></li>
-          <li class="d-ib">
-            &copy; Copyright {{ 'now' | date: "%Y" }}
-          </li>
+        <ul>
+          <li><a href="/stories">All stories</a></li>
+          <li>&copy; Copyright {{ 'now' | date: "%Y" }}</li>
         </ul>
       </small>
     </footer>

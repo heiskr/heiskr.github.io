@@ -753,8 +753,3 @@ This would cut the need for many of the tools I mention in this article. When a 
 _To reiterate_: Take what’s relevant to you and ignore the rest. Every project has its exceptions. You might not need JS, or React/Redux! This article is for 2018. If you are reading this any later, the community will have likely already changed some of this.
 
 **Thanks for reading.** _Feedback is welcome!_
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

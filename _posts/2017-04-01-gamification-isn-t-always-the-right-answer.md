@@ -5,6 +5,8 @@ description: 'For Sagefy, a different strategy fits better.'
 image: /images/game-1.png
 ---
 
+_Note: Sagefy was shut down in 2025._
+
 Gamification seemed like a natural fit for [Sagefy](https://sagefy.org). The term had been around since about 2010. Gamification came to its current position in 2013. 2013 was around the same time [I started working on Sagefy]({% post_url 2016-09-14-why-i-m-building-sagefy %}). I didn’t know much about gamification beyond the cliché of points, badges, and leaderboards. But I did know that many businesses and organizations invested in gamification. In particular, those related to learning ([Khan Academy](https://www.khanacademy.org/), [Duolingo](https://www.duolingo.com/)). I explored this through videos, articles, books, and courses. I realized people used gamification as a synonym for a more familiar phrase: **extrinsic motivation.**
 
 The word “gamification” came into existence around 2010. “Gamification” reached the term’s [current standing in 2013](https://www.google.com/trends/explore?date=all&q=gamification).
@@ -38,8 +40,3 @@ There’s some cons. We already see some negative reaction to points, leaderboar
 In my mind, adding some gamified elements can be fun. **The most important thing is that those elements _support,_ and not oppose, the internal motivations of the learner.** For example, giving users an easy way to track their progress is important. Reminding users of their goals is valuable. Encouraging social interactions can add to the learning experience. Focusing too much on badges, leaderboards, economies, and points can detract instead.
 
 Sagefy is currently minimal. But it will grow in features. The question for me with motivation will remain. _Does this feature support the learner’s intrinsic motivation? Or does is distract?_ If it doesn’t pass that test, I can’t support it.
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).

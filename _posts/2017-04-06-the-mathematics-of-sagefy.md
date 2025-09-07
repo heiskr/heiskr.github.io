@@ -5,6 +5,8 @@ description: 'How Sagefy adapts to you, and where it can go.'
 image: /images/math-1.png
 ---
 
+_Note: Sagefy was shut down in 2025._
+
 In this article, I’m going to talk about some of the mathematical models I’m using in Sagefy so far. I’m going to discuss some of the problems I’ve run into, and what problems are still ahead. I’m hoping to occasionally update this article as the math that Sagefy uses changes.
 
 ## What is Sagefy?
@@ -372,10 +374,3 @@ As you can see, this is just the beginning. Sagefy is right now the seed of what
 - Group learning.
 - When should the learner take a break?
 - How valid or accurate is the content?
-
-For more on Sagefy:
-
-- [Visit Sagefy](https://sagefy.org). Feedback is welcome!
-- Watch this [3 minute YouTube video](https://youtu.be/h9LD7GKtEa0).
-- Sign up for [updates](https://sgfy.xyz/updates).
-- Follow Sagefy on [Twitter](https://twitter.com/sagefyorg).
