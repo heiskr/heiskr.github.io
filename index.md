@@ -10,7 +10,6 @@ I work for GitHub as a web engineer. My spouse Kaʻimi is a psychiatric nurse pr
 
 [GitHub][github] &bull; [Articles](/stories) &bull;  [YouTube][youtube] &bull; [Artsy][vimeo]
 
-[sagefy]: https://sagefy.org
 [github]: https://github.com/heiskr
 [youtube]: https://www.youtube.com/channel/UCyJoOeTGjdzPKfHX177JkBQ
 [vimeo]: https://vimeo.com/heiskr
