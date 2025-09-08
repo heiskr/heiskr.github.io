@@ -7,22 +7,20 @@ title: Stories
   <h1>Stories</h1>
 </header>
 
-<ul class="ls-n pl-0">
-  {% for post in site.posts %}
-  <li>
-    <h2 class="mb-0"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p class="mt-0 mb-0"><em>{{ post.description }}</em></p>
-    <p class="mt-0">
-      <small
-        >by Kevin Heis &bull;
-        <time datetime="{{ post.date | date: '%Y-%m-%d' }}"
-          >{{ post.date | date: "%Y %b %d" }}</time
-        ></small
-      >
-    </p>
-  </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+<article>
+  <h2 class="mb-0"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="mt-0 mb-0"><em>{{ post.description }}</em></p>
+  <p class="mt-0">
+    <small
+      >by Kevin Heis &bull;
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}"
+        >{{ post.date | date: "%Y %b %d" }}</time
+      ></small
+    >
+  </p>
+</article>
+{% endfor %}
 
 <footer>
   <hr />
