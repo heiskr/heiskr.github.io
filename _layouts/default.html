@@ -7,14 +7,26 @@
     <meta charset="utf-8" />
     <title>Kevin Heis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="light dark" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.violet.min.css"
-    />
     <link rel="icon" href="/favicon.ico" />
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        margin-bottom: 0;
+      }
+      a {
+        color: blue;
+      }
+    </style>
   </head>
   <body>
-    <main class="container">{{ content }}</main>
+    {{ content }}
   </body>
 </html>
