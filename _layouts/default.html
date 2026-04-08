@@ -26,10 +26,16 @@
         margin-bottom: 1rem;
       }
       a {
-        color: blue;
+        color: inherit;
       }
       p {
         max-width: 40rem;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: black;
+          color: lightgray;
+        }
       }
     </style>
   </head>
