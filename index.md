@@ -3,9 +3,9 @@ layout: default
 ---
 
 <img 
-  src="https://avatars3.githubusercontent.com/u/1221423?s=400&v=4" 
+  src="https://avatars3.githubusercontent.com/u/1221423?s=320&v=4" 
   alt="portrait" 
-  width="200" 
+  width="160" 
 />
  
 # Kevin Heis
